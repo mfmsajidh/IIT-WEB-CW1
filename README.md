@@ -42,6 +42,7 @@ Admin Functionalities
 2. Sending SMS to customer
 3. Cancel reservation and send the email
 
+
 > Deadline: Monday, 10th September 2018
 
 > Coursework Drive Link: [Assignment.PDF](https://drive.google.com/open?id=0B68VaxYc5S-FQjhuaHpZQ2NudkM5ZW9fVkpEaEtZb1VVRjUw)
