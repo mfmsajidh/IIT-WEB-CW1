@@ -106,14 +106,14 @@ li.dropdown {
 }
 
 /* Navigation Bar Search */
-input[type=text] {
+input[type=text] {        
     width: 130px;
     box-sizing: border-box;
     font-size: 16px;
     font-weight: 300;
     border: 0;
     background-color: #333;
-    padding: 14px 16px 14px 40px;
+    padding: 14px 16px 14px 40px; 
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     color: white;
@@ -136,7 +136,8 @@ input[type=text]:focus {
 
 .BODY
 {
-    font-family:sans-serif;
+    font-family:sans-serif; 
+   /* background-repeat: no-repeat */;
     
 }
 
@@ -161,7 +162,7 @@ input[type=text]:focus {
     padding-bottom:20px;
     margin-left:60%;
     margin-right: 10%;
-    margin-top:0%;
+    margin-top:2%;
     padding-left: 10px;
     font-size: 12px;
     position: relative;
