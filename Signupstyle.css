@@ -1,4 +1,4 @@
-body
+.BODY
 {
 	font-family:sans-serif;
 	
@@ -89,11 +89,6 @@ td
 	background-color: #696969;
 }
 
-.imagedeadpool
-{
-	background-image: url("background5.jpg") 
-	float:left;
-}
 
 h2
 {
