@@ -149,15 +149,17 @@ input[type=text]:focus {
     height: auto;
     
     /* Set up positioning */
+    position: fixed;
     top: 0;
     left: 0;
+    z-index: -1;
 }
 
 .Content1 {
     float:left;
     background-color:rgba(255, 0, 0, 0);
     position:relative;
-    top:300px;
+    top:200px;
     left:60px;
     padding: 40px;
     color: white;
@@ -215,17 +217,3 @@ td {
     color: #ffffff;
     background-color: #696969;
 }
-
-h2 {
-    margin-bottom: 0px;
-    margin-top: 0px;
-
-}
-
-.image {
-    opacity: 1;
-}
-
-.image:hover {
-    opacity: 0.5;
-}     
