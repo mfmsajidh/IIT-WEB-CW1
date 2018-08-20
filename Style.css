@@ -97,6 +97,8 @@ li.dropdown {
 	opacity: 1;
 	transition: .5s ease;
 	backface-visibility: hidden;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .navbar_logo:hover .logo{
