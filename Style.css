@@ -135,7 +135,6 @@ input[type=text]:focus {
 
 .Content1 {
     float:left;
-    font-family: monospace;
     background-color:rgba(255, 0, 0, 0);
     position:relative;
     top:300px;
@@ -156,7 +155,6 @@ input[type=text]:focus {
     font-size: 12px;
     position: relative;
     left:6%;
-    font-family: monospace;
 }
 
 h3 {
@@ -165,7 +163,6 @@ h3 {
     padding:10px;
     margin: 0px;
     margin-bottom: 8px;
-    font-family: monospace;
 }
 
 .textbox {
@@ -173,7 +170,6 @@ h3 {
     border:2px ;
     border-radius: 10px;
     font-size: 14px;
-    font-family: monospace;;
 }
 
 td {
