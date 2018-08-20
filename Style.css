@@ -12,6 +12,10 @@ body {
 	margin: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
 p {
 	padding-left: 1%;
 }
@@ -132,6 +136,22 @@ input[type=text]:focus {
 
 /* --------------------------------------------------------------------------------------------- */
 /* ---------------------------- Registration Page ---------------------------------------------- */
+.background {
+    background-image: url("Images/Background/Deadpool.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    
+    /* Set up positioning */
+    top: 0;
+    left: 0;
+}
 
 .Content1 {
     float:left;
@@ -140,17 +160,15 @@ input[type=text]:focus {
     top:300px;
     left:60px;
     padding: 40px;
-    color:#A9A9A9;
+    color: white;
 }
 
 .Content {
     background-color: #ffffff; 
     color:#A9A9A9;
     padding: 10px;
-    padding-bottom:20px;
     margin-left:60%;
     margin-right: 10%;
-    margin-top:2%;
     padding-left: 10px;
     font-size: 12px;
     position: relative;
