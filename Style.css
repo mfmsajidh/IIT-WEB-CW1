@@ -130,19 +130,10 @@ input[type=text]:focus {
 }
 
 
-    /* --------------------------------------------------------------------------------------------- */
-    /* ---------------------------- SIGN UP PAGE--------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------- */
+/* ---------------------------- Registration Page ---------------------------------------------- */
 
-
-.BODY
-{
-    font-family:sans-serif; 
-   /* background-repeat: no-repeat */;
-    
-}
-
-.Content1
-{
+.Content1 {
     float:left;
     font-family: monospace;
     background-color:rgba(255, 0, 0, 0);
@@ -151,11 +142,9 @@ input[type=text]:focus {
     left:60px;
     padding: 40px;
     color:#A9A9A9;
-
 }
 
-.Content
-{
+.Content {
     background-color: #ffffff; 
     color:#A9A9A9;
     padding: 10px;
@@ -168,40 +157,30 @@ input[type=text]:focus {
     position: relative;
     left:6%;
     font-family: monospace;
-
-
-
 }
 
-h3
-{
+h3 {
     text-align:center;
     background-color: #3b444b;
     padding:10px;
     margin: 0px;
     margin-bottom: 8px;
     font-family: monospace;
-
 }
 
-.textbox
-{
+.textbox {
     background-color: #696969;
     border:2px ;
     border-radius: 10px;
     font-size: 14px;
     font-family: monospace;;
-
-
 }
 
-td
-{
+td {
     padding: 5px;
 }
 
-.btnsignup
-{
+.btnsignup {
     padding: 6px;
     border-radius: 5px;
     color:#ffffff;
@@ -210,14 +189,11 @@ td
     opacity: 0.5;
 }
 
-.btnsignup:hover
-{
+.btnsignup:hover {
     opacity: 1.0;
 }
 
-.btnlogin
-{
-    
+.btnlogin {
     width:100%;
     border-radius: 5px;
     padding: 5px;
@@ -226,20 +202,16 @@ td
     background-color: #696969;
 }
 
-
-h2
-{
+h2 {
     margin-bottom: 0px;
     margin-top: 0px;
 
 }
 
-.image
-{
+.image {
     opacity: 0.5;
 }
 
-.image:hover
-{
+.image:hover {
     opacity: 1.0;
 }     
