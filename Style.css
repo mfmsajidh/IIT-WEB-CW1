@@ -106,7 +106,7 @@ li.dropdown {
 }
 
 /* Navigation Bar Search */
-input[type=text] {        
+.Search {        
     width: 130px;
     box-sizing: border-box;
     font-size: 16px;
