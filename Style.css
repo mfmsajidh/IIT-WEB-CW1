@@ -166,6 +166,7 @@ input[type=text]:focus {
 }
 
 .Content {
+    margin-top: 1%;
     background-color: #ffffff; 
     color:#A9A9A9;
     padding: 10px;
