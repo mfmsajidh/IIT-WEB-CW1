@@ -73,12 +73,3 @@ body
 	font-weight:Bold;
 }
 
-ul.navbar {
-    list-style-type: none;
-    margin-bottom:80%;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li.navbar_right {
-	float: right;
