@@ -140,7 +140,6 @@ input[type=text]:focus {
 /* --------------------------------------------------------------------------------------------- */
 /* ---------------------------- Registration Page ---------------------------------------------- */
 
-
 .background {
     background-image: url("Images/Background/Deadpool.jpg");
     background-position: center;
@@ -163,7 +162,7 @@ input[type=text]:focus {
 .Content1 {
     float:left;
     background-color:rgba(255, 0, 0, 0);
-    position:relative;
+    position: fixed;
     top:200px;
     left:60px;
     padding: 40px;
@@ -179,7 +178,7 @@ input[type=text]:focus {
     margin-right: 10%;
     padding-left: 10px;
     font-size: 12px;
-    position: relative;
+    position: fixed;
     left:6%;
 }
 
