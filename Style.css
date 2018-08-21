@@ -203,12 +203,9 @@ td {
     color:#ffffff;
     background-color: #1E90FF;
     border: 0px;
-    opacity: 0.5;
+    opacity: 1;
 }
 
-.btnsignup:hover {
-    opacity: 1.0;
-}
 
 .btnlogin {
     width:100%;
@@ -217,4 +214,9 @@ td {
     border: 0px;
     color: #ffffff;
     background-color: #696969;
+}
+
+.btnlogin:hover{
+
+    text-decoration: underline;
 }
