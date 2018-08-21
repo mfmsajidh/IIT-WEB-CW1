@@ -130,6 +130,7 @@ li.dropdown {
 	color: white;
 	font-family: FontAwesome, 'Roboto', sans-serif;
     font-weight: 300;
+    padding-left: 1px;
 }
 
 input[type=text]:focus {
