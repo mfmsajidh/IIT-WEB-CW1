@@ -10,6 +10,7 @@ html {
 
 body {
 	margin: 0;
+    margin-top: 4%;
 }
 
 html, body {
@@ -27,6 +28,9 @@ ul.navbar {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 li.navbar {
