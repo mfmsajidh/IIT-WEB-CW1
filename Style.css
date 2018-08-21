@@ -120,7 +120,7 @@ li.dropdown {
     font-weight: 300;
     border: 0;
     background-color: #333;
-    padding: 14px 16px 14px 40px; 
+    padding: 16px 16px 12px 40px; 
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     color: white;
@@ -130,11 +130,22 @@ li.dropdown {
 	color: white;
 	font-family: FontAwesome, 'Roboto', sans-serif;
     font-weight: 300;
+    padding-left: 1px;
 }
 
 input[type=text]:focus {
     width: 100%;
 }
+
+
+/* --------------------------------------------------------------------------------------------- */
+/* ----------------------------------- Index Page ---------------------------------------------- */
+
+
+
+
+
+
 
 
 /* --------------------------------------------------------------------------------------------- */
