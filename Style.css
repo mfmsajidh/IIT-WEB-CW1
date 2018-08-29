@@ -240,6 +240,28 @@ input[type=text]:focus {
 .container h1{
     padding-top: 10px;
     text-align: center;
+    font-weight: 300;
+}
+
+.container p{
+    text-align: center;
+    font-weight: 100;
+    font-size: xx-large;
+}
+
+.container a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #2a2a57;
+    font-size: x-large;
+    margin-left: 44%;
+    opacity: 1;
+}
+
+.container a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+
 }
 
 
