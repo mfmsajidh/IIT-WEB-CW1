@@ -1,0 +1,4 @@
+Purple
+
+HEX: #2a2a57
+RGB: 42,42,87
