@@ -324,18 +324,18 @@ div.desc {
 
 .Content1 {
     float:left;
-    background-color:rgba(255, 0, 0, 0);
+    background-color:rgba(255, 0, 0, 0); 
     position: fixed;
     top:200px;
     left:60px;
     padding: 40px;
-    color: white;
+    color:  #000000;
 }
 
 .Content {
     margin-top: 1%;
-    background-color: #ffffff; 
-    color:#A9A9A9;
+    background-color:#C0C0C0; 
+    color:  #000000;
     padding: 10px;
     margin-left:60%;
     margin-right: 10%;
@@ -343,6 +343,7 @@ div.desc {
     font-size: 12px;
     position: fixed;
     left:6%;
+
 }
 
 h3 {
