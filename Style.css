@@ -299,7 +299,6 @@ div.desc {
     font-weight: 300;
 }
 
-
 /* --------------------------------------------------------------------------------------------- */
 /* ---------------------------- Registration Page ---------------------------------------------- */
 
@@ -324,14 +323,15 @@ div.desc {
 
 .Content1 {
     float:left;
-    background-color:white; 
+    background-color:rgba(255,255,255,0.5); 
+
     position: fixed;
     top:200px;
     left:30px;
     padding: 40px;
     color:#000000;
     font-weight: 300;
-    font-size:larger;
+    font-size:x-large;
 }
 
 .Content {
