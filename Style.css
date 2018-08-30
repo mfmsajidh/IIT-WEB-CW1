@@ -324,12 +324,14 @@ div.desc {
 
 .Content1 {
     float:left;
-    background-color:rgba(255, 0, 0, 0); 
+    background-color:white; 
     position: fixed;
     top:200px;
-    left:60px;
+    left:30px;
     padding: 40px;
-    color:  #000000;
+    color:#000000;
+    font-weight: 300;
+    font-size:larger;
 }
 
 .Content {
