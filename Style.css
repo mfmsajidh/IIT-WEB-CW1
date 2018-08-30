@@ -140,7 +140,14 @@ input[type=text]:focus {
 }
 
 /* ----- Footer ----- */
-
+.footer {
+   width: 100%;
+   background-color: #2A2A57;
+   color: white;
+   font-weight: 300;
+   text-align: center;
+   padding: 8px;
+}
 
 
 /* --------------------------------------------------------------------------------------------- */
