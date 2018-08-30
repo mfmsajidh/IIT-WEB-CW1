@@ -139,6 +139,16 @@ input[type=text]:focus {
     width: 100%;
 }
 
+/* ----- Footer ----- */
+.footer {
+   width: 100%;
+   background-color: #2A2A57;
+   color: white;
+   font-weight: 300;
+   text-align: center;
+   padding: 8px;
+}
+
 
 /* --------------------------------------------------------------------------------------------- */
 /* ----------------------------------- Index Page ---------------------------------------------- */
@@ -271,10 +281,11 @@ div.gallery {
     float: left;
     width: 300px;
     margin-left: 27px;
+    margin-bottom: 30px;
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    border: 1px solid #2a2a57;
 }
 
 div.gallery img {
