@@ -38,7 +38,7 @@ function showSlides(n) {
 
                 var a = /^[a-zA-Z-,]+(\s{0,1}[a-zA-Z-, ])*$/
 
-                if(txtname.value.match(a))
+                if(txtname.value.match(a) && txtuname.value.match(a) && txtaddress.value.match(a))
                 {
 
                 }
@@ -47,6 +47,12 @@ function showSlides(n) {
                 {
                     document.getElementById("txtname").style.color = "Red";
                     document.getElementById("txtname").value = "Enter a Suitable name";
+
+                    document.getElementById("txtuname").style.color = "Red";
+                    document.getElementById("txtuname").value = "Enter a Suitable User name";
+
+                    document.getElementById("txtaddress").style.color = "Red";
+                    document.getElementById("txtaddress").value = "Enter a  Suitable Address";
                 }
                  
             }    
