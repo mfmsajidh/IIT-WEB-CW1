@@ -33,3 +33,20 @@ function showSlides(n) {
     
 
 //----------------------Validation Part for Java Script-------------------------------------------
+
+      function validate(txtname){
+
+                var a = /^[a-zA-Z-,]+(\s{0,1}[a-zA-Z-, ])*$/
+
+                if(txtname.value.match(a))
+                {
+
+                }
+
+                else
+                {
+                    document.getElementById("txtname").style.color = "Red";
+                    document.getElementById("txtname").value = "Enter a Suitable name";
+                }
+                 
+            }    
