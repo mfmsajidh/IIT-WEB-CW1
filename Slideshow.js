@@ -34,25 +34,4 @@ function showSlides(n) {
 
 //----------------------Validation Part for Java Script-------------------------------------------
 
-      function validate(txtname){
-
-                var a = /^[a-zA-Z-,]+(\s{0,1}[a-zA-Z-, ])*$/
-
-                if(txtname.value.match(a) && txtuname.value.match(a) && txtaddress.value.match(a))
-                {
-
-                }
-
-                else
-                {
-                    document.getElementById("txtname").style.color = "Red";
-                    document.getElementById("txtname").value = "Enter a Suitable name";
-
-                    document.getElementById("txtuname").style.color = "Red";
-                    document.getElementById("txtuname").value = "Enter a Suitable User name";
-
-                    document.getElementById("txtaddress").style.color = "Red";
-                    document.getElementById("txtaddress").value = "Enter a  Suitable Address";
-                }
-                 
-            }    
+      
