@@ -71,9 +71,6 @@ function showSlides(n) {
              errormessage += "Please Enter an Address for us to Deliver \n";
          }
 
-
-
-
          if(errormessage != "")
          {
              alert(errormessage);
@@ -81,3 +78,23 @@ function showSlides(n) {
          }
 
       }
+   //-------------------------------------NAME VALIDATING-------------------------------------------------------   
+
+      function validateName()
+      {
+
+          var name = document.getElementById("txtname").value;
+
+          if(name.length == 0)
+          {
+               producePrompt("Name is Required","commentnameprompt","red")
+          }
+      }
+
+      function producePrompt(message,promptLocation,color)
+      {
+         document.getElementById(promptLocation).innerHTML = message;
+         document.getElementById(promptLocation).style.color = color;
+         
+      }
+
