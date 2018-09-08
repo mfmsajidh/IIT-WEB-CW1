@@ -1,3 +1,5 @@
+//---------------------- Slideshow -------------------------------------------
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -29,8 +31,8 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 
 }
+
 //---------------------------------------------Basic Java Script---------------------------------------
-    
 
 //----------------------Validation Part for Java Script-------------------------------------------
 
