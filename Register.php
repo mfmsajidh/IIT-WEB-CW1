@@ -134,7 +134,7 @@
 
       <!-- BUTTONS -->
       <tr>
-      	<td> <input type="Submit"  class="btnsignup"  value="SignUp" onclick= "validate(txtname,txtuname)"></td>
+      	<td> <input type="Submit"  class="btnsignup"  value="SignUp"></td>
       </tr>   
     </table>
   </form>

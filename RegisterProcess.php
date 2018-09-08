@@ -21,10 +21,13 @@
    	  die(mysqli_error());
    }
 
+   
    else
    {
-        echo "Record Submitted";
-
+         $message = "You are Registered Welcome to Movie Hut";
+         echo "<script type='text/javascript'>alert('$message');</script>";
+         header("Location:Login.php");
+         
    }
 
 ?>
