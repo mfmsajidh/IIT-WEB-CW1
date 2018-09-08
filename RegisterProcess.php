@@ -12,7 +12,7 @@
     $no = $_POST["phonenum"];
     $address = $_POST["address"];
 
-    $query = "insert into customer values('103','$name','$gender','$username','$email','$password','$no','$address')";
+    $query = "insert into customer values('104','$name','$gender','$username','$email','$password','$no','$address')";
 
     $result = mysqli_query($conn,$query);
 
