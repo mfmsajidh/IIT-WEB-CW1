@@ -471,3 +471,32 @@ td {
     font-weight:Bold;
 }
 
+
+/*--------------------------------------------------------------------------------------------*/
+/*--------------------------------------- Admin & User Page ----------------------------------*/
+
+.new_btn input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #2a2a57;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 16px 16px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out; 
+}
+
+.new_btn ::placeholder{
+    color: black;
+    font-family: FontAwesome, 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-left: 1px;
+
+}
+
+.new_btn input[type=text]:focus {
+    width: 75%;
+}
