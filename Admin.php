@@ -23,19 +23,19 @@
 
 	<!-- Navigation Bar -->
 	<ul class="navbar">
-		<li class="navbar"><a class="navbar active" href="User.html"><i class="fa fa-video-camera" style="font-size:16px"></i></a></li>
+		<li class="navbar"><a class="navbar active" href="User.php"><i class="fa fa-video-camera" style="font-size:16px"></i></a></li>
 		<li class="navbar dropdown">
 			<a href="javascript:void(0)" class="dropbtn">Movies</a>
 			<div class="dropdown-content">
-				<a href="User.html#Reserve">Reserve Now</a>
-				<a href="User.html#IMG_Gallery">Motion Gallery</a>
-				<a href="User.html#Upcomings">Upcomings</a>
+				<a href="User.php#Reserve">Reserve Now</a>
+				<a href="User.php#IMG_Gallery">Motion Gallery</a>
+				<a href="User.php#Upcomings">Upcomings</a>
 			</div>
 		</li>
-		<li class="navbar"><a class="navbar" href="Contact Us - User.html">Contact Us</a></li>
+		<li class="navbar"><a class="navbar" href="Contact Us - User.php">Contact Us</a></li>
 		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
 		<li class="navbar_right"><a class="navbar" href="#">Logout</a></li>
-		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search"></li>
+		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search" id="Search"></li>
 	</ul>
 
 	<div class="container new_btn" style="height: 100%;">
@@ -59,10 +59,10 @@
 		
 		<br>
 		<br>
-		<a href="Login.html"><i class="material-icons" style="font-size:36px;color:#2a2a57">open_in_new</i></a> &nbsp &nbsp &nbsp
-		<a href="Login.html"><i class="material-icons" style="font-size:36px;color:#2a2a57">library_add</i></a> &nbsp &nbsp &nbsp
-		<a href="Login.html"<i class="material-icons" style="font-size:36px;color:#2a2a57">update</i></a> &nbsp &nbsp &nbsp
-		<a href="Login.html"><i class="material-icons" style="font-size:36px;color:#2a2a57">delete_sweep</i></a>
+		<a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">open_in_new</i></a> &nbsp &nbsp &nbsp
+		<a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">library_add</i></a> &nbsp &nbsp &nbsp
+		<a href="#"<i class="material-icons" style="font-size:36px;color:#2a2a57">update</i></a> &nbsp &nbsp &nbsp
+		<a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">delete_sweep</i></a>
 		</form>
 	
 	<hr width="75%">
@@ -85,8 +85,8 @@
 			
 			<br>
 			<br>
-			<a href="Login.html"><i class="material-icons" style="font-size:36px;color:#2a2a57">navigate_before</i></a> &nbsp &nbsp &nbsp
-			<a href="Login.html"><i class="material-icons" style="font-size:36px;color:#2a2a57">navigate_next</i></a>
+			<a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">navigate_before</i></a> &nbsp &nbsp &nbsp
+			<a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">navigate_next</i></a>
 			</form>
 		</div>
 	</div>
@@ -122,7 +122,7 @@
 
 	<div class="container" style="height:25%; top: 0;">
 		<h1>Search for a DVD</h1>
-		<a href="#search">Search <i class="fa fa-search" style="font-size:25px;color:#2a2a57"></i></a>
+		<a href="#Search">Search <i class="fa fa-search" style="font-size:25px;color:#2a2a57"></i></a>
 	</div>
 
 	<div class="footer">

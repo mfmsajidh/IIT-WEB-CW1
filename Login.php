@@ -22,19 +22,19 @@
 
   <!-- Navigation Bar -->
   <ul class="navbar">
-    <li class="navbar"><a class="navbar active" href="Index.html"><i class="fa fa-video-camera" style="font-size:16px"></i></a></li>
+    <li class="navbar"><a class="navbar active" href="Index.php"><i class="fa fa-video-camera" style="font-size:16px"></i></a></li>
     <li class="navbar dropdown">
       <a href="javascript:void(0)" class="dropbtn">Movies</a>
       <div class="dropdown-content">
-        <a href="Index.html#Reserve">Reserve Now</a>
-        <a href="Index.html#IMG_Gallery">Motion Gallery</a>
-        <a href="Index.html#Upcomings">Upcomings</a>
+        <a href="Index.php#Reserve">Reserve Now</a>
+        <a href="Index.php#IMG_Gallery">Motion Gallery</a>
+        <a href="Index.php#Upcomings">Upcomings</a>
       </div>
     </li>
-    <li class="navbar"><a class="navbar" href="Contact Us.html">Contact Us</a></li>
+    <li class="navbar"><a class="navbar" href="Contact Us.php">Contact Us</a></li>
     <li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
-    <li class="navbar_right"><a class="navbar" href="Register.html">Register</a></li>
-    <li class="navbar_right"><a class="navbar" href="Login.html">Login</a></li>
+    <li class="navbar_right"><a class="navbar" href="Register.php">Register</a></li>
+    <li class="navbar_right"><a class="navbar" href="Login.php">Login</a></li>
     <li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search"></li>
   </ul>
          
@@ -49,7 +49,7 @@
 						<br></br>
 						<button class="Sign1" type ="submit"> Sign In </button>
 												<br></br>
-						<p align="center" class="pf1"> Forgot Your Password? <a href="" class="click"> Click Here! </a></p>
+						<p align="center" class="pf1"> Forgot Your Password? <a href="#" class="click"> Click Here! </a></p>
 				
 				</div>
 			</div>
