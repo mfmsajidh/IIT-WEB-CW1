@@ -58,7 +58,7 @@
 
   <font size="4"><p align="center"><b>Sign Up</b></p></font>
   <hr>
-  <form name ="form1" method="post" onsubmit = "return checkforblank()">
+  <form name ="form1"  method="post" onsubmit = "return checkforblank()" action="RegisterProcess.php">
     <table border="0">
       <!-- Name and Name Text Box-->
                         
@@ -67,7 +67,7 @@
       </tr>
 
       <tr>
-        <td><input class="textbox" onkeyup="validateName()" type="text" id="txtname"><label id ="commentnameprompt"></label></td>
+        <td><input class="textbox" onkeyup="validateName()" type="text" id="txtname" name="fullname"><label id ="commentnameprompt"></label></td>
       </tr>
                         
       <!-- Radio Button for gender-->
