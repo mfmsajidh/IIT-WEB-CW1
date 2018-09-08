@@ -93,9 +93,10 @@ function showSlides(n) {
                return false;
           }
 
-          if(!name.match())
+          if(!name.match(/^[A-Za-z\d\s]+$/))
           {
               producePrompt("Enter a Proper name","commentnameprompt","red");
+              return false;
           }
              
         producePrompt("Welcome "+ name, "commentnameprompt", "green");
