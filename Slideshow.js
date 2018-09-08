@@ -51,6 +51,28 @@ function showSlides(n) {
            errormessage += "Enter your UserName \n";
          }
 
+         if(document.getElementById("txtemail1").value == "")
+         {
+             errormessage += "Please Enter your Email \n";
+         }
+         
+          if(document.getElementById("password1").value == "")
+         {
+             errormessage += "Please Enter a Suitable Password \n";
+         }
+
+          if(document.getElementById("txtno").value == "")
+         {
+             errormessage += "Please Enter a Phone Number with 10 Digits \n";
+         }
+         
+          if(document.getElementById("txtaddress").value == "")
+         {
+             errormessage += "Please Enter an Address for us to Deliver \n";
+         }
+
+
+
 
          if(errormessage != "")
          {
