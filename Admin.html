@@ -52,17 +52,13 @@
 		<input type="text" id="mactress" name="mactress" placeholder="Movie Actress">
 
 
-		<label class="radio">Available
-		  <input type="radio" checked="checked" name="mstatus" value="Available">
-		  <span class="checkmark"></span>
-		</label>
-		<label class="radio">Borrowed
-		  <input type="radio" name="mstatus" value="Borrowed">
-		  <span class="checkmark"></span>
-		</label>
+		<select id="mstatus" name="mstatus">
+			<option disabled selected value>Movie Status</option>
+      		<option value="Available">Available</option>
+      		<option value="Borrowed">Borrowed</option>
+    	</select>
 
-
-		<input type="text" id="mstatus" name="mstatus" placeholder="Movie Status">
+		<!-- <input type="text" id="mstatus" name="mstatus" placeholder="Movie Status"> -->
 		
 		<br>
 		<br>
