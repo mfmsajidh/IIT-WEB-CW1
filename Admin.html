@@ -35,7 +35,7 @@
 		<li class="navbar"><a class="navbar" href="Contact Us.html">Contact Us</a></li>
 		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
 		<li class="navbar_right"><a class="navbar" href="Login.html">Logout</a></li>
-		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search"></li>
+		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search" id="search"></li>
 	</ul>
 
 	<div class="container new_btn" style="height: 100%;">
@@ -71,7 +71,7 @@
 	<div class="container new_btn"  style="height: 100%;">
 		<h1>Our Reservations</h1>
 
-		<div class="half-container">
+		<div class="container">
 			<p>Customer</p>
 			<form class="new_btn">
 
@@ -89,9 +89,24 @@
 			<a href="Login.html"><i class="material-icons" style="font-size:36px;color:#2a2a57">navigate_next</i></a>
 			</form>
 		</div>
+	</div>
+
+	<div class="container new_btn"  style="height: 75%;">
+		<div class="half-container">
+			<p>Movie #1</p>
+			<form class="new_btn">
+
+			<input type="text" id="mid" name="mid" placeholder="Movie ID" disabled style="width:75%;">
+			<input type="text" id="mname" name="fname" placeholder="Movie Name" disabled style="width:75%;">
+			<input type="text" id="mactor" name="mactor" placeholder="Movie Actor" disabled style="width:75%;">
+			<input type="text" id="mactress" name="mactress" placeholder="Movie Actress" disabled style="width:75%;">
+
+			</form>
+
+		</div>
 
 		<div class="half-container">
-			<p>Movies</p>
+			<p>Movie #2</p>
 			<form class="new_btn">
 
 			<input type="text" id="mid" name="mid" placeholder="Movie ID" disabled style="width:75%;">
@@ -99,18 +114,16 @@
 			<input type="text" id="mactor" name="mactor" placeholder="Movie Actor" disabled style="width:75%;">
 			<input type="text" id="mactress" name="mactress" placeholder="Movie Actress" disabled style="width:75%;">
 			
-			<br>
-			<br>
-			<a href="Login.html"><i class="material-icons" style="font-size:36px;color:#2a2a57">navigate_before</i></a> &nbsp &nbsp &nbsp
-			<a href="Login.html"><i class="material-icons" style="font-size:36px;color:#2a2a57">navigate_next</i></a>
 			</form>
-
 		</div>
-
 	</div>
 
-	<br>
-	<br>
+	<hr width="90%">
+
+	<div class="container" style="height:25%; top: 0;">
+		<h1>Search for a DVD</h1>
+		<a href="#search">Search <i class="fa fa-search" style="font-size:25px;color:#2a2a57"></i></a>
+	</div>
 
 	<div class="footer">
 	  <p>Copyright 2018 <i class="fa fa-html5"></i> by <i class="fa fa-github"></i> Shakya | Rahal | Nafeel | Shohan | Sajidh</p>
