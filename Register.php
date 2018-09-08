@@ -88,7 +88,7 @@
       </tr>
 
       <tr>
-      	<td><input onkeyup = "validateUsername()" class="textbox" type="text" id="txtuname"><label id="commentusername"></label></td>
+      	<td><input onkeyup = "validateUsername()" class="textbox" type="text" id="txtuname" name="username"><label id="commentusername"></label></td>
       </tr>	
     
       <!-- EMAIL and EMAIL text box-->
@@ -115,7 +115,7 @@
       </tr>
 
       <tr>
-      	<td><input class="textbox" type="text" id="txtno" pattern="[1-9]{1}[0-9]{9}"></td>
+      	<td><input name="phonenum" class="textbox" type="text" id="txtno" pattern="[1-9]{1}[0-9]{9}"></td>
       </tr>
    
       <!-- ADDRESS and ADDRESSS text box-->
@@ -124,7 +124,7 @@
       </tr>
 
       <tr>
-      <td><textarea class="textbox" cols="35" rows="2" id="txtaddress"></textarea></td> 
+      <td><textarea name="address" class="textbox" cols="35" rows="2" id="txtaddress"></textarea></td> 
       </tr>
       
       <!-- CHECK BOX-->
