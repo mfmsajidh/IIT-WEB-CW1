@@ -46,7 +46,7 @@
 
 		<form>
 
-		<input type="text" id="mid" name="mid" placeholder="Movie ID">
+		<input type="text" id="mid" name="mid" placeholder="Movie ID" disabled>
 		<input type="text" id="mname" name="fname" placeholder="Movie Name">
 		<input type="text" id="mactor" name="mactor" placeholder="Movie Actor">
 		<input type="text" id="mactress" name="mactress" placeholder="Movie Actress">
