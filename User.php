@@ -22,7 +22,7 @@
 
 	<!-- Navigation Bar -->
 	<ul class="navbar">
-		<li class="navbar"><a class="navbar active" href="User.html"><i class="fa fa-video-camera" style="font-size:16px"></i></a></li>
+		<li class="navbar"><a class="navbar active" href="User.php"><i class="fa fa-video-camera" style="font-size:16px"></i></a></li>
 		<li class="navbar dropdown">
 			<a href="javascript:void(0)" class="dropbtn">Movies</a>
 			<div class="dropdown-content">
@@ -31,7 +31,7 @@
 				<a href="#Upcomings">Upcomings</a>
 			</div>
 		</li>
-		<li class="navbar"><a class="navbar" href="Contact Us - User.html">Contact Us</a></li>
+		<li class="navbar"><a class="navbar" href="Contact Us - User.php">Contact Us</a></li>
 		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
 		<li class="navbar_right"><a class="navbar" href="#">Logout</a></li>
 		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search"></li>
@@ -246,7 +246,7 @@
 		<br>
 		<h1 id="Upcomings">About to happen. Forthcoming.</h1>
 		<p>Stay tuned with us for the upcoming movies</p>
-		<a href="Contact Us - User.html">Subscribe <i class="fa fa-arrow-circle-right" style="font-size:25px;color:#2a2a57"></i></a>
+		<a href="Contact Us - User.php">Subscribe <i class="fa fa-arrow-circle-right" style="font-size:25px;color:#2a2a57"></i></a>
 	</div>
 	
 	<div class="footer">
