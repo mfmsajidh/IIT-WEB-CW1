@@ -89,14 +89,36 @@ function showSlides(n) {
 
           if(name.length == 0)
           {
-               producePrompt("Name is Required","commentnameprompt","red")
+               producePrompt("Name is Required","commentnameprompt","red");
+               return false;
           }
+
+          if(!name.match())
+          {
+              producePrompt("Enter a Proper name","commentnameprompt","red");
+          }
+             
+        producePrompt("Welcome "+ name, "commentnameprompt", "green");
+        return true;
+          
       }
+
 
       function producePrompt(message,promptLocation,color)
       {
          document.getElementById(promptLocation).innerHTML = message;
          document.getElementById(promptLocation).style.color = color;
          
+      }
+
+
+      function validateUsername()
+      {
+         var uname = document.getElementById("txtuname").value;
+
+         if(uname.length == 0)
+         {
+             producePrompt("UserName is Required","commentusername","red")
+         }
       }
 
