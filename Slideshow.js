@@ -34,4 +34,28 @@ function showSlides(n) {
 
 //----------------------Validation Part for Java Script-------------------------------------------
 
-      
+      function checkforblank(){
+         
+         var errormessage = "";
+
+         if(document.getElementById("txtname").value == "")
+         {
+           
+           errormessage += "Enter your full Name \n";
+          
+         }
+
+         if(document.getElementById("txtuname").value == "")
+         {
+           
+           errormessage += "Enter your UserName \n";
+         }
+
+
+         if(errormessage != "")
+         {
+             alert(errormessage);
+             return false;
+         }
+
+      }
