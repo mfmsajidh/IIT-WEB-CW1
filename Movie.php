@@ -44,7 +44,7 @@
 		<br>
 		<br>
 		<h1 id="Movie_Name">Pacific Rim Uprising</h1>
-		<p>Stay tuned with us for the upcoming movies</p>
+		<p>Available</p>
 		<a href="Contact Us - User.php">Subscribe <i class="fa fa-arrow-circle-right" style="font-size:25px;color:#2a2a57"></i></a>
 	</div>
 	
