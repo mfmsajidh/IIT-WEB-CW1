@@ -45,13 +45,11 @@ else {
 				<a href="#IMG_Gallery">Motion Gallery</a>
 				<a href="#Upcomings">Upcomings</a>
 			</div>
-			<form methd="post" action="searchprocess.php">
 		</li>
 		<li class="navbar"><a class="navbar" href="Contact Us.php">Contact Us</a></li>
 		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
 		<li class="navbar_right"><a class="navbar" href="Register.php">Register</a></li>
 		<li class="navbar_right"><a class="navbar" href="Login.php">Login</a></li>
-		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search" action="searchprocess.php"></li></form>
 	</ul>
 
 	<!-- Slideshow Gallery -->

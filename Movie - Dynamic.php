@@ -49,22 +49,25 @@ else {
 </head>
 <body>
 
-	<!-- Navigation Bar -->
-	<ul class="navbar">
-		<li class="navbar"><a class="navbar active" href="User.php"><i class="fa fa-video-camera" style="font-size:16px"></i></a></li>
-		<li class="navbar dropdown">
-			<a href="javascript:void(0)" class="dropbtn">Movies</a>
-			<div class="dropdown-content">
-				<a href="User.php#Reserve">Reserve Now</a>
-				<a href="User.php#IMG_Gallery">Motion Gallery</a>
-				<a href="User.php#Upcomings">Upcomings</a>
-			</div>
-		</li>
-		<li class="navbar"><a class="navbar" href="Contact Us - User.php">Contact Us</a></li>
-		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
-		<li class="navbar_right"><a class="navbar" href="LogoutProcess.php">Logout</a></li>
-		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search"></li>
-	</ul>
+  <ul class="navbar">
+    <li class="navbar"><a class="navbar active" href="User.php"><i class="fa fa-video-camera" style="font-size:16px"></i></a></li>
+    <li class="navbar dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Movies</a>
+      <div class="dropdown-content">
+        <a href="User.php#Reserve">Reserve Now</a>
+        <a href="User.php#IMG_Gallery">Motion Gallery</a>
+        <a href="User.php#Upcomings">Upcomings</a>
+      </div>
+    </li>
+    <li class="navbar"><a class="navbar" href="Contact Us - User.php">Contact Us</a></li>
+    <li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
+    <li class="navbar_right"><a class="navbar" href="LogoutProcess.php">Logout</a></li>
+    
+    <form name="S_form" id="S_form" method="post" action="searchprocess.php">
+      <li class="navbar_right"><a class="navbar" href="javascript:{}" onclick="document.getElementById('S_form').submit(); return false;"><i class="fa fa-search"></i></a></li>
+      <li class="navbar_right"><input type="text" name="search12" placeholder="Search ....." class="Search"></li>
+      </form>
+  </ul>
 
 	<img src="<?php echo $movieImage; ?>" width="100%" height="100%">
 	<div class="container" style="height: 75%;">

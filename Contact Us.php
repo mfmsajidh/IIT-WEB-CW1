@@ -53,7 +53,7 @@ else {
   <ul class="navbar">
     <li class="navbar"><a class="navbar active" href="Index.php"><i class="fa fa-video-camera" style="font-size:16px"></i></a></li>
     <li class="navbar dropdown">
-      <a href="Index.php" class="dropbtn">Movies</a>
+      <a href="javascript:void(0)" class="dropbtn">Movies</a>
       <div class="dropdown-content">
         <a href="Index.php#Reserve">Reserve Now</a>
         <a href="Index.php#IMG_Gallery">Motion Gallery</a>

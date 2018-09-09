@@ -54,7 +54,7 @@ else {
 		
 		<form name="S_form" id="S_form" method="post" action="searchprocess.php">
 			<li class="navbar_right"><a class="navbar" href="javascript:{}" onclick="document.getElementById('S_form').submit(); return false;"><i class="fa fa-search"></i></a></li>
-			<li class="navbar_right"><input type="text" name="search12" placeholder="Search" class="Search"></li>
+			<li class="navbar_right"><input type="text" name="search12" placeholder="Search ....." class="Search"></li>
 	    </form>
 	</ul>
 
