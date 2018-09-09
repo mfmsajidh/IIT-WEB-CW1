@@ -47,7 +47,7 @@ else {
 	<div class="container new_btn" style="height: 100%;">
 		<br>
 		<h1>Admin Dashboard</h1>
-		<p>View, Insert, Update or Delete Movies</p>
+		<p>Insert, Update or Delete Movies</p>
 		<br>
 
 		<form method="Post" action="sendingmovie.php">
@@ -65,10 +65,10 @@ else {
 		
 		<br>
 		<br>
-	<button name="btn1"><a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">open_in_new</i></a></button> &nbsp &nbsp &nbsp
-		<a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">library_add</i></a> &nbsp &nbsp &nbsp
-		<a href="#"<i  class="material-icons" style="font-size:36px;color:#2a2a57">update</i></a> &nbsp &nbsp &nbsp
-	<button name="btn2"	<a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">delete_sweep</i></a></button>
+	
+	<button name="btn1" style="border:none; background-color:transparent;"><a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">library_add</i></a> &nbsp &nbsp &nbsp</button>
+	<button name="btn4" style="border:none; background-color:transparent;"><a href="#"<i  class="material-icons" style="font-size:36px;color:#2a2a57">update</i></a> &nbsp &nbsp &nbsp</button>
+	<button name="btn2" style="border:none; background-color:transparent;"><a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">delete_sweep</i></a></button>
 		</form>
 	
 	<hr width="75%">
