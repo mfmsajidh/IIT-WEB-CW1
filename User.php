@@ -50,7 +50,10 @@ else {
 		<li class="navbar"><a class="navbar" href="Contact Us - User.php">Contact Us</a></li>
 		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
 		<li class="navbar_right"><a class="navbar" href="LogoutProcess.php">Logout</a></li>
-		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search"></li>
+		
+		<form methd="post" action="SearchProcess.php">
+			<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search"></li>
+	    </form>
 	</ul>
 
 	<!-- Slideshow Gallery -->
