@@ -265,7 +265,7 @@ else {
 		<br>
 		<h1 id="Upcomings">About to happen. Forthcoming.</h1>
 		<p>Stay tuned with us for the upcoming movies</p>
-		<a href="Contact Us - User.php">Subscribe <i class="fa fa-arrow-circle-right" style="font-size:25px;color:#2a2a57"></i></a>
+		<a href="Contact Us - User.php">Contact <i class="fa fa-arrow-circle-right" style="font-size:25px;color:#2a2a57"></i></a>
 	</div>
 	
 	<div class="footer">
