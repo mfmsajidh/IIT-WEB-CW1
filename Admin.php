@@ -67,8 +67,9 @@ else {
 		<br>
 	
 	<button name="btn1" style="border:none; background-color:transparent;"><a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">library_add</i></a> &nbsp &nbsp &nbsp</button>
-	<button name="btn4" style="border:none; background-color:transparent;"><a href="#"<i  class="material-icons" style="font-size:36px;color:#2a2a57">update</i></a> &nbsp &nbsp &nbsp</button>
+	<button name="btn4" style="border:none; background-color:transparent;"><a href="#"><i  class="material-icons" style="font-size:36px;color:#2a2a57">update</i></a> &nbsp &nbsp &nbsp</button>
 	<button name="btn2" style="border:none; background-color:transparent;"><a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">delete_sweep</i></a></button>
+		
 		</form>
 	
 	<hr width="75%">

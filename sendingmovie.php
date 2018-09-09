@@ -21,8 +21,8 @@ if (isset($_POST['btn1']))
    
    else
    {
-   	      echo "<script type='text/javascript'>alert('Movie submitted successfully!')</script>";
-          header("Location:Admin.php");
+   	      echo "Successfully sent to database";
+          
    }
 }
 
@@ -52,7 +52,8 @@ elseif (isset($_POST['btn4']))
 
    			 if ($conn->query($sql1) === TRUE) {
                     echo "Record updated successfully";
-                 }              
+                 }           
+
              else {
                        echo "Error updating record: " . $conn->error;
                    }
