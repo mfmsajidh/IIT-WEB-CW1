@@ -143,12 +143,12 @@ else {
       
       <!-- CHECK BOX-->
       <tr>
-      	<td><input type="checkbox" name="chk1" value="checked">Accept terms and Policies</td>
+      	<td><input type="checkbox" name="checkbox" value="check">Accept terms and Policies</td>
       </tr>
 
       <!-- BUTTONS -->
       <tr>
-      	<td> <input type="Submit"  class="btnsignup"  value="SignUp"></td>
+      	<td> <input type="Submit"  class="btnsignup"  value="SignUp" onclick="if(!this.form.checkbox.checked){alert('You must agree to the terms first.');return false}"></td>
       </tr>   
     </table>
   </form>

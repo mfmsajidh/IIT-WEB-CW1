@@ -51,8 +51,9 @@ else {
 		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
 		<li class="navbar_right"><a class="navbar" href="LogoutProcess.php">Logout</a></li>
 		
-		<form methd="post" action="SearchProcess.php">
-			<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search"></li>
+		<form methd="post" action="searchprocess.php">
+			<li class="navbar_right"><input type="text" name="search12" placeholder="&#xf002 Search" class="Search"></li>
+			<li><input type="Submit" value="search" name="search1"></li>
 	    </form>
 	</ul>
 
