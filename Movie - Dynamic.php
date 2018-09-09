@@ -82,7 +82,7 @@ else {
 			<p><i class="fa fa-male" style="font-size:30px;color:#2a2a57"></i> <?php echo $movieActor; ?></p>
 			<p><i class="fa fa-female" style="font-size:30px;color:#2a2a57"></i> <?php echo $movieActress; ?></p>
 			<br>
-			<a href="ReserveProcess.php">Reserve Now <i class="fa fa-wheelchair-alt" style="font-size:25px;color:#2a2a57"></i></a>
+			<a href="ReserveProcess.php?id=<?php echo $id; ?>">Reserve Now <i class="fa fa-wheelchair-alt" style="font-size:25px;color:#2a2a57"></i></a>
 		</form>
 
 	</div>
