@@ -21,7 +21,7 @@
 </head>
 <body>
                <!--Java Script Definition-->
-    <script type="text/javascript" src="Slideshow.js"> </script>
+    <script type="text/javascript" src="Validation.js"> </script>
 
   <!-- Navigation Bar -->
   <ul class="navbar">
