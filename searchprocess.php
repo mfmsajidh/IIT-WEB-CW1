@@ -1,11 +1,8 @@
 <?php
- 
-<<<<<<< HEAD
-=======
+
     include(connection.php);
      //name="search"
      $searchbar = $_POST["search"];
->>>>>>> 4d5467ced5396676db3a8079a804148d5fdfff80
      
       $value = $_POST["search"];
 
