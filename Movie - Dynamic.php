@@ -7,6 +7,20 @@ session_start();
 if ( isset( $_SESSION['Email'] ) ) {
     // Grab user data from the database using the email
     // Let them access the "logged in only" pages
+    
+    // $id= $_GET("id");
+
+    $id = 4;
+    
+    require("connection.php");
+    
+    $result = mysqli_query($conn, "SELECT * FROM movie where movieId='$id'") or die("Could not execute query: " .mysqli_error($conn));
+    $row=mysqli_fetch_assoc($result);
+
+    $movieName = $row["movieName"];
+    $movieStatus = $row["status"];
+    $movieActor = $row["actor"];
+    $movieActress = $row["actress"];
 } 
 else {
     // Redirect them to the login page
@@ -60,11 +74,11 @@ else {
 		<br>
 
 		<form method="post" action="ReserveProcess.php">
-			<h1 id="12">The Alien</h1>
-			<p><i class="fa fa-info-circle" style="font-size:30px;color:#2a2a57"></i> Available</p>
+			<h1><?php echo $movieName; ?></h1>
+			<p><i class="fa fa-info-circle" style="font-size:30px;color:#2a2a57"></i> <?php echo $movieStatus; ?></p>
 			<br>
-			<p><i class="fa fa-male" style="font-size:30px;color:#2a2a57"></i> Michael Fassbender</p>
-			<p><i class="fa fa-female" style="font-size:30px;color:#2a2a57"></i> Katherine Waterston</p>
+			<p><i class="fa fa-male" style="font-size:30px;color:#2a2a57"></i> <?php echo $movieActor; ?></p>
+			<p><i class="fa fa-female" style="font-size:30px;color:#2a2a57"></i> <?php echo $movieActress; ?></p>
 			<br>
 			<a href="ReserveProcess.php">Reserve Now <i class="fa fa-wheelchair-alt" style="font-size:25px;color:#2a2a57"></i></a>
 		</form>
