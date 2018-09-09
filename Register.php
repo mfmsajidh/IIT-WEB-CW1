@@ -7,10 +7,11 @@ session_start();
 if ( isset( $_SESSION['Email'] ) ) {
     // Grab user data from the database using the user_id
     // Let them access the "logged in only" pages
+  header("Location: User.php");
 } 
 else {
     // Redirect them to the login page
-    header("Location: User.php");
+    header("Location: Register.php");
 }
 ?>
 
