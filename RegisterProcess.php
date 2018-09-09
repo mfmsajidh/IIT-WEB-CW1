@@ -3,7 +3,7 @@
     include("connection.php");
     
 
-    $number = rand(100,500);
+    $number = rand(100,1000);
     $name = $_POST["fullname"];
     $gender = $_POST["gender"];
     $username = $_POST["username"];
