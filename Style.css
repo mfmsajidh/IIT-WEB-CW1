@@ -307,12 +307,10 @@ div.desc {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100%;
-    min-width: 1024px;
+    height: 100%;
 
     /* Set up proportionate scaling */
     width: 100%;
-    height: auto;
     
     /* Set up positioning */
     position: fixed;
@@ -322,8 +320,6 @@ div.desc {
 }
 
 .Content {
-    margin-top: 1%;
-    background-color:; 
     color:  #000000;
     padding: 10px;
     margin-right: 10%;
@@ -334,7 +330,6 @@ div.desc {
     border: none;
     outline: none;
     overflow: hidden;
-
 }
 
 h3 {
