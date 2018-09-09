@@ -147,112 +147,112 @@ else {
 
 	<!-- Image Gallery -->
 		<div class="gallery">
-		  <a href="Movie - Pacific Rim.php">
+		  <a href="Movie - Pacific Rim.php?id=2">
 		    <img src="Images/Background/Pacific Rim.jpg" alt="Pacific Rim" width="300" height="200">
 		  </a>
 		  <div class="desc"">Pacific Rim Uprising</div>
 		</div>
 
 		<div class="gallery">
-		  <a href="Movie - Justice League.php">
+		  <a href="Movie - Justice League.php?id=3">
 		    <img src="Images/Background/Justice League.jpg" alt="Justice League" width="300" height="200">
 		  </a>
 		  <div class="desc">Justice League</div>
 		</div>
 
 		<div class="gallery">
-		  <a href="Movie - Warcraft The Beginning.php">
+		  <a href="Movie - Warcraft The Beginning.php?id=4">
 		    <img src="Images/Background/Warcraft.jpg" alt="Warcraft" width="300" height="200">
 		  </a>
 		  <div class="desc">Warcraft: The Beginning</div>
 		</div>
 
 		<div class="gallery">
-		  <a href="Movie - Dawn of The Planet of The Apes.php">
+		  <a href="Movie - Dawn of The Planet of The Apes.php?id=5">
 		    <img src="Images/Background/Dawn of The Planet of The Apes.jpg" alt="Dawn of The Planet of The Apes" width="300" height="200">
 		  </a>
 		  <div class="desc">Dawn of The Planet of The Apes</div>
 		</div>
 
 		<div class="gallery">
-		  <a href="Movie - Skyfall 007.php">
+		  <a href="Movie - Skyfall 007.php?id=6">
 		    <img src="Images/Background/Skyfall 007.jpg" alt="Skyfall 007" width="300" height="200">
 		  </a>
 		  <div class="desc">Skyfall 007</div>
 		</div>
 
 		<div class="gallery">
-		  <a href="Movie - Rio 2.php">
+		  <a href="Movie - Rio 2.php?id=1">
 		    <img src="Images/Background/Rio 2.jpg" alt="Rio 2" width="300" height="200">
 		  </a>
 		  <div class="desc">Rio 2</div>
 		</div>
 
 		<div class="gallery">
-		  <a href="Movie - Assassins Creed.php">
+		  <a href="Movie - Assassins Creed.php?id=7">
 		    <img src="Images/Background/Assassins Creed.jpg" alt="Assassins Creed" width="300" height="200">
 		  </a>
 		  <div class="desc">Assassin's Creed</div>
 		</div>
 
 		<div class="gallery">
-		  <a href="Movie - Hobbit.php">
+		  <a href="Movie - Hobbit.php?id=8">
 		    <img src="Images/Background/Hobbit.jpg" alt="Hobbit" width="300" height="200">
 		  </a>
 		  <div class="desc">Hobbit: An Unexpected Journey</div>
 		</div>
 
 		<div class="gallery">
-		  <a href="Movie - Foreigner.php">
+		  <a href="Movie - Foreigner.php?id=9">
 		    <img src="Images/Background/Foreigner.jpg" alt="Foreigner" width="300" height="200">
 		  </a>
 		  <div class="desc">The Foreigner</div>
 		</div>
 
 		<div class="gallery">
-		  <a href="Movie - Happy New Year.php">
+		  <a href="Movie - Happy New Year.php?id=10">
 		    <img src="Images/Background/Happy New Year.jpg" alt="Happy New Year" width="300" height="200">
 		  </a>
 		  <div class="desc">Happy New Year</div>
 		</div>
 
 		<div class="gallery">
-		  <a href="Movie - Martian.php">
+		  <a href="Movie - Martian.php?id=11">
 		    <img src="Images/Background/Martian.jpg" alt="The Martian" width="300" height="200">
 		  </a>
 		  <div class="desc">The Martian</div>
 		</div>
 
 		<div class="gallery">
-		  <a href="Movie - Alien.php">
+		  <a href="Movie - Alien.php?id=12">
 		    <img src="Images/Background/Alien.jpg" alt="Alien" width="300" height="200">
 		  </a>
 		  <div class="desc">Alien</div>
 		</div>
 
 		<div class="gallery">
-		  <a href="Movie - Venom.php">
+		  <a href="Movie - Venom.php?id=13">
 		    <img src="Images/Background/Venom.jpg" alt="Venom" width="300" height="200">
 		  </a>
 		  <div class="desc">Venom</div>
 		</div>
 
 		<div class="gallery">
-		  <a href="Movie - Tomb Raider.php">
+		  <a href="Movie - Tomb Raider.php?id=14">
 		    <img src="Images/Background/Tomb Raider.jpg" alt="Tomb Raider" width="300" height="200">
 		  </a>
 		  <div class="desc">Tomb Raider</div>
 		</div>
 		
 		<div class="gallery">
-		  <a href="Movie - Dracula.php">
+		  <a href="Movie - Dracula.php?id=15">
 		    <img src="Images/Background/Dracula.jpg" alt="Dracula" width="300" height="200">
 		  </a>
 		  <div class="desc">Dracula</div>
 		</div>
 		
 		<div class="gallery">
-		  <a href="Movie - MI6.php">
+		  <a href="Movie - MI6.php?id=16">
 		    <img src="Images/Background/MI6.jpg" alt="Mission Impossible Fallout" width="300" height="200">
 		  </a>
 		  <div class="desc">Mission Impossible 6: Fallout</div>
