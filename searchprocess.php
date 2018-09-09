@@ -5,13 +5,17 @@
      $searchbar = $_POST["search"];
      
     //select process
-     $query = "select movieName from movie where movieName='$searchbar'";
-     
-     $result = mysqli_query($conn,$query);
-     while($row = mysqli_fetch_array($result))
-     {
-          header("Location:User.php");
-     }
+     $sql = "SELECT movieName FROM movie WHERE movieName = '$searchbar'";
+     $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+    // output data of each row
+         while($row = $result->fetch_assoc()) {
+        echo "successful";
+    }
+}     else {
+      echo "0 results";
+}
 
 
 ?>

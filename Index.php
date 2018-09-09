@@ -1,18 +1,3 @@
-<?php
-// You'd put this code at the top of any "protected" page you create
-
-// Always start this first
-session_start();
-
-if ( empty( $_SESSION['Email'] ) ) {
-
-} 
-else {
-    
-    header("Location: User.php");
-}
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -45,11 +30,13 @@ else {
 				<a href="#IMG_Gallery">Motion Gallery</a>
 				<a href="#Upcomings">Upcomings</a>
 			</div>
+			<form methd="post" action="searchprocess.php">
 		</li>
 		<li class="navbar"><a class="navbar" href="Contact Us.php">Contact Us</a></li>
 		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
 		<li class="navbar_right"><a class="navbar" href="Register.php">Register</a></li>
 		<li class="navbar_right"><a class="navbar" href="Login.php">Login</a></li>
+		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search" action="searchprocess.php"></li></form>
 	</ul>
 
 	<!-- Slideshow Gallery -->
@@ -141,62 +128,86 @@ else {
 
 	<!-- Image Gallery -->
 		<div class="gallery">
+		  <a target="_blank" href="#">
 		    <img src="Images/Background/Pacific Rim.jpg" alt="Pacific Rim" width="300" height="200">
+		  </a>
 		  <div class="desc"">Pacific Rim Uprising</div>
 		</div>
 
 		<div class="gallery">
+		  <a target="_blank" href="#">
 		    <img src="Images/Background/Justice League.jpg" alt="Justice League" width="300" height="200">
+		  </a>
 		  <div class="desc">Justice League</div>
 		</div>
 
 		<div class="gallery">
+		  <a target="_blank" href="#">
 		    <img src="Images/Background/Warcraft.jpg" alt="Warcraft" width="300" height="200">
+		  </a>
 		  <div class="desc">Warcraft: The Beginning</div>
 		</div>
 
 		<div class="gallery">
+		  <a target="_blank" href="#">
 		    <img src="Images/Background/Dawn of The Planet of The Apes.jpg" alt="Dawn of The Planet of The Apes" width="300" height="200">
+		  </a>
 		  <div class="desc">Dawn of The Planet of The Apes</div>
 		</div>
 
 		<div class="gallery">
+		  <a target="_blank" href="#">
 		    <img src="Images/Background/Skyfall 007.jpg" alt="Skyfall 007" width="300" height="200">
+		  </a>
 		  <div class="desc">Skyfall 007</div>
 		</div>
 
 		<div class="gallery">
+		  <a target="_blank" href="#">
 		    <img src="Images/Background/Rio 2.jpg" alt="Rio 2" width="300" height="200">
+		  </a>
 		  <div class="desc">Rio 2</div>
 		</div>
 
 		<div class="gallery">
+		  <a target="_blank" href="#">
 		    <img src="Images/Background/Assassins Creed.jpg" alt="Assassins Creed" width="300" height="200">
+		  </a>
 		  <div class="desc">Assassin's Creed</div>
 		</div>
 
 		<div class="gallery">
+		  <a target="_blank" href="#">
 		    <img src="Images/Background/Hobbit.jpg" alt="Hobbit" width="300" height="200">
+		  </a>
 		  <div class="desc">Hobbit: An Unexpected Journey</div>
 		</div>
 
 		<div class="gallery">
+		  <a target="_blank" href="#">
 		    <img src="Images/Background/Foreigner.jpg" alt="Foreigner" width="300" height="200">
+		  </a>
 		  <div class="desc">The Foreigner</div>
 		</div>
 
 		<div class="gallery">
+		  <a target="_blank" href="#">
 		    <img src="Images/Background/Happy New Year.jpg" alt="Happy New Year" width="300" height="200">
+		  </a>
 		  <div class="desc">Happy New Year</div>
 		</div>
 
 		<div class="gallery">
+		  <a target="_blank" href="#">
 		    <img src="Images/Background/Dracula.jpg" alt="Dracula" width="300" height="200">
+		  </a>
 		  <div class="desc">Dracula</div>
 		</div>
 		
 		<div class="gallery">
+		  <a target="_blank" href="#">
 		    <img src="Images/Background/MI6.jpg" alt="Mission Impossible Fallout" width="300" height="200">
+		  </a>
 		  <div class="desc">Mission Impossible 6: Fallout</div>
 		</div>
 
