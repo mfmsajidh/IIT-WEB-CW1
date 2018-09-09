@@ -398,60 +398,60 @@ td {
 
 #bodysignin
 {
-    background: url("Images/Background/Captain America.jpg");
-    position:relative;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-right: 20%;
+    background: url("Images/Background/Captain America.jpg") no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
 }
 
 .table1
 {
-    border-radius:30px;
-    height:;
-    width:40%;
-    background-color: White;
-    margin-left:80%;
-    margin-top:15%;
-    margin-bottom:0%;
-
+   width: 25%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
 }
 
 .head1
 {
-    font-family: Arial, Helvetica, red-serif;
-    font-style:;
-    font-size: 60px;
-    color:SteelBlue; 
+    
+    float: center;
+    font-size: 40px
+    border-bottom: 6px solid #4caf50;
+    margin-bottom: 50px;
+    padding: 13px 0;
+    
 }
 
 .text1
 {
-    background-color:#3b444b;
-    margin-left:5%;
-    height:20%;
-    width:90%;
-    border-radius:10px;
-    color:#A9A9A9;
-    font-weight:Bold;
-    font-size:150%;
-    background-color:White;
-    padding-top: 2.5%;
-    padding-right: 2.5%;
-    padding-bottom: 2.5%;
-    padding-left: 2.5%;
+   width: 100%;
+   overflow: hidden;
+   font-size: 20px;
+   padding: 8px 0;
+   margin: 8px 0;
+   border-bottom: 1px solid #4caf50;
+   border: none;
+   outline: none;
+   font-size: 18px;
+   width: 320px;
+   margin: 10px;
+
 }
 
 .Sign1
 {
-    font-weight:Bold;
-    margin-left:7%;
-    border-radius:10px;
-    height:10%;
-    width:40%;
-    background-color:#696969;
-    color:#ffffff;
-    font-size:150%;
+    width: 100%;
+    background: none;
+    border: 1px solid;
+    color: white;
+    padding: 5px; 
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px 0;
+
 }
 .Sign2
 {
