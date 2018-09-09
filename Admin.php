@@ -4,9 +4,8 @@
 // Always start this first
 session_start();
 
-if ($_SESSION['Email'] == 'admin@motivehut.com' ) {
-    // Grab user data from the database using the user_id
-    // Let them access the "logged in only" pages
+if ($_SESSION['Email'] == 'admin@moviehut.com' ) {
+
 } 
 else {
     // Redirect them to the login page
@@ -39,19 +38,10 @@ else {
 
 	<!-- Navigation Bar -->
 	<ul class="navbar">
-		<li class="navbar"><a class="navbar active" href="User.php"><i class="fa fa-video-camera" style="font-size:16px"></i></a></li>
-		<li class="navbar dropdown">
-			<a href="javascript:void(0)" class="dropbtn">Movies</a>
-			<div class="dropdown-content">
-				<a href="User.php#Reserve">Reserve Now</a>
-				<a href="User.php#IMG_Gallery">Motion Gallery</a>
-				<a href="User.php#Upcomings">Upcomings</a>
-			</div>
-		</li>
-		<li class="navbar"><a class="navbar" href="Contact Us - User.php">Contact Us</a></li>
+		<li class="navbar"><a class="navbar active" href="#"><i class="fa fa-video-camera" style="font-size:16px"></i></a></li>
+		
 		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
 		<li class="navbar_right"><a class="navbar" href="LogoutProcess.php">Logout</a></li>
-		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search" id="Search"></li>
 	</ul>
 
 	<div class="container new_btn" style="height: 100%;">
