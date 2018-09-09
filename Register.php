@@ -124,7 +124,7 @@
       </tr>
 
       <tr>
-      <td><textarea name="address" class="textbox" cols="35" rows="2" id="txtaddress"></textarea></td> 
+      <td><textarea name="address" class="textbox" cols="35" rows="2" id="txtaddress" onkeyup = "validateaddress()"></textarea><label id ="commentaddress"></label></td> 
       </tr>
       
       <!-- CHECK BOX-->

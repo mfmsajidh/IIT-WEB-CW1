@@ -65,7 +65,7 @@
         return true;
           
       }
-
+//--------------public function--------------------
 
       function producePrompt(message,promptLocation,color)
       {
@@ -74,7 +74,7 @@
          
       }
 
-
+//--------------------User name validation------
       function validateUsername()
       {
          var uname = document.getElementById("txtuname").value;
@@ -92,5 +92,27 @@
           }
 
            producePrompt("Welcome "+ uname, "commentusername", "green");
-           return true;s
+           return true;
+      }
+
+//----------------  validating the address-------
+
+    function validateaddress()
+      {
+         var address1 = document.getElementById("txtaddress").value;
+
+         if(address1.length == 0)
+         {
+             producePrompt("Address is required","commentaddress","red")
+             return false;
+         }
+
+          if(!address1.match(/^[a-zA-Z\s]+$/))
+          {
+              producePrompt("Address is required","commentaddress","red");
+              return false;
+          }
+
+           producePrompt("good", "commentaddress", "green");
+           return true;
       }
