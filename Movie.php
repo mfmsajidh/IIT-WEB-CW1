@@ -38,14 +38,17 @@
 	</ul>
 
 	<img src="Images/Background/Pacific Rim.jpg" alt="Pacific Rim" width="100%" height="100%">
-	<div class="container">
+	<div class="container" style="height: 75%;">
 
 		<br>
 		<br>
-		<br>
 		<h1 id="Movie_Name">Pacific Rim Uprising</h1>
-		<p>Stay tuned with us for the upcoming movies</p>
-		<a href="Contact Us - User.php">Subscribe <i class="fa fa-arrow-circle-right" style="font-size:25px;color:#2a2a57"></i></a>
+		<p><i class="fa fa-info-circle" style="font-size:30px;color:#2a2a57"></i> Available</p>
+		<br>
+		<p><i class="fa fa-male" style="font-size:30px;color:#2a2a57"></i> John Boyega</p>
+		<p><i class="fa fa-female" style="font-size:30px;color:#2a2a57"></i> Rinko Kikuchi</p>
+		<br>
+		<a href="#">Reserve Now <i class="fa fa-wheelchair-alt" style="font-size:25px;color:#2a2a57"></i></a>
 	</div>
 	
 	<div class="footer">

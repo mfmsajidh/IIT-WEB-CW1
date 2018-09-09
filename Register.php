@@ -48,7 +48,7 @@
     <hr>
     <h2 align="center">Register to H U T</h2>
     <p align="center">Already Have an Account</p>
-    <input type="Submit" value="Sign In" id="cmdlogin" class="btnlogin" onclick="window.location.href='Login.php'">
+    <input type="Submit" value="Sign In" id="cmdlogin" class="btnlogin" onclick="window.location.href='Login.html'">
 
   </div>
 
@@ -67,7 +67,7 @@
       </tr>
 
       <tr>
-        <td><input class="textbox" onkeyup="validateName()" type="text" id="txtname" name="fullname"><label id ="commentnameprompt" ></label></td>
+        <td><input class="textbox" onkeyup="validateName()" type="text" id="txtname" name="fullname"><label id ="commentnameprompt"></label></td>
       </tr>
                         
       <!-- Radio Button for gender-->
@@ -115,7 +115,7 @@
       </tr>
 
       <tr>
-      	<td><input name="phonenum" class="textbox" type="text" id="txtno" pattern="/^\d{10}$/"></td>
+      	<td><input name="phonenum" class="textbox" type="text" id="txtno" pattern="[1-9]{1}[0-9]{9}"></td>
       </tr>
    
       <!-- ADDRESS and ADDRESSS text box-->
