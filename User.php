@@ -240,14 +240,14 @@ else {
 		</div>
 		
 		<div class="gallery">
-		  <a href="Movie - Dracula">
+		  <a href="Movie - Dracula.php">
 		    <img src="Images/Background/Dracula.jpg" alt="Dracula" width="300" height="200">
 		  </a>
 		  <div class="desc">Dracula</div>
 		</div>
 		
 		<div class="gallery">
-		  <a target="_blank" href="Movie - MI6.php">
+		  <a href="Movie - MI6.php">
 		    <img src="Images/Background/MI6.jpg" alt="Mission Impossible Fallout" width="300" height="200">
 		  </a>
 		  <div class="desc">Mission Impossible 6: Fallout</div>
