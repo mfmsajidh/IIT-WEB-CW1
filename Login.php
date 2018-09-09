@@ -46,7 +46,7 @@
 						<form method="post" action="LoginProcess.php">
 						<input class ="text1" type="email" placeholder="Email" name="Email" required>
 						<br></br>
-						<input class ="text1" type="password" placeholder="Password" name="psw" required>
+						<input class ="text1" type="password" placeholder="Password" name="Password" required>
 						<br></br>
 						<button class="Sign1" type ="submit"> Sign In </button>
 												<br></br>
