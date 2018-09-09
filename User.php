@@ -129,7 +129,7 @@ else {
 
 	<div class="container" id="Reserve">
 		<br>
-		<h1>Welcome HUNTER</h1>
+		<h1>Welcome <?php echo $_SESSION['Email']; ?></h1>
 		<p>Last Minute Movie Browsings ????? <br> No Problem <br> We have the right set of Movies for all your needs</p>
 		<a href="#IMG_Gallery">Reserve Now <i class="fa fa-arrow-circle-right" style="font-size:25px;color:#2a2a57"></i></a>
 	</div>
