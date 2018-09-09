@@ -142,7 +142,7 @@ else {
 
 	<!-- Image Gallery -->
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Movie - Pacific Rim.php">
 		    <img src="Images/Background/Pacific Rim.jpg" alt="Pacific Rim" width="300" height="200">
 		  </a>
 		  <div class="desc"">Pacific Rim Uprising</div>
