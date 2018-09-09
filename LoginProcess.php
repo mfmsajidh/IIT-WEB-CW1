@@ -15,6 +15,9 @@
    }
    elseif (mysqli_num_rows($result)==1) {
     $_SESSION['Email'] = $email;
+    $Fresult = mysqli_query($conn, "SELECT fullName FROM customer where email='$email'");
+    $Fname=mysqli_fetch_assoc($Fresult);
+    $_SESSION['FullName'] = $Fname["fullName"];
     header('location:User.php');
    }
    else{
