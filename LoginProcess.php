@@ -17,7 +17,7 @@
     $pass =  $_POST["psw"];
     
     $result = mysqli_query($conn,"SELECT email,password FROM customer WHERE email='$email' ANd password='$pass'");
-    $row = mysqli_fetch_array($result,$SQL);
+    $row = mysqli_fetch_array($result);
 
     if ($row["E-mail"]==$email && $row["psw"]==$pass)
     {
