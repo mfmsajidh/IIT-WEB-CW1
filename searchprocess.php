@@ -15,7 +15,7 @@
 
       	  while($row = $query->fetch_array()){
 
-                   header("Location.usr.php");
+                   header("Location.user.php");
 
       	  }
       }
