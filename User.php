@@ -125,7 +125,7 @@ else {
 
 	<div class="container" id="Reserve">
 		<br>
-		<h1>Welcome</h1>
+		<h1>Welcome HUNTER</h1>
 		<p>Last Minute Movie Browsings ????? <br> No Problem <br> We have the right set of Movies for all your needs</p>
 		<a href="#IMG_Gallery">Reserve Now <i class="fa fa-arrow-circle-right" style="font-size:25px;color:#2a2a57"></i></a>
 	</div>
@@ -149,7 +149,7 @@ else {
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Justice League.php">
 		    <img src="Images/Background/Justice League.jpg" alt="Justice League" width="300" height="200">
 		  </a>
 		  <div class="desc">Justice League</div>
@@ -177,7 +177,7 @@ else {
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Rio 2.php">
 		    <img src="Images/Background/Rio 2.jpg" alt="Rio 2" width="300" height="200">
 		  </a>
 		  <div class="desc">Rio 2</div>
