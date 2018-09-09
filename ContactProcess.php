@@ -14,21 +14,12 @@
    	  die(mysqli_error());
    }
 
-    else
+   else
    {
-         /*
-         $message = "Thanks for your Feedback";
-         echo "<script type='text/javascript'> alert ('$message') </script>";
+        // $message = "Thanks for your Feedback";
+         echo "<script type='text/javascript'>alert('$message');</script>";
          header("Location:Contact Us - User.php");
-         */
-         $message = "Thanks for your Feedback";
-         alert("Hello!");
-
-	     function alert($message) {
-         echo "<script type='text/javascript'>alert('$msg');</script>";
-}
-?>
-
+         
    }
 
 ?>
