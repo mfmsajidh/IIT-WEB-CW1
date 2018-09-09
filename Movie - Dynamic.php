@@ -8,9 +8,7 @@ if ( isset( $_SESSION['Email'] ) ) {
     // Grab user data from the database using the email
     // Let them access the "logged in only" pages
     
-    // $id= $_GET("id");
-
-    $id = 4;
+    $id= $_GET['id'];
     
     require("connection.php");
     
@@ -21,6 +19,7 @@ if ( isset( $_SESSION['Email'] ) ) {
     $movieStatus = $row["status"];
     $movieActor = $row["actor"];
     $movieActress = $row["actress"];
+    $movieImage = $row["Image"];
 } 
 else {
     // Redirect them to the login page
@@ -67,7 +66,7 @@ else {
 		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search"></li>
 	</ul>
 
-	<img src="Images/Background/Alien.jpg" width="100%" height="100%">
+	<img src="<?php echo $movieImage; ?>" width="100%" height="100%">
 	<div class="container" style="height: 75%;">
 
 		<br>
