@@ -1,3 +1,18 @@
+<?php
+// You'd put this code at the top of any "protected" page you create
+
+// Always start this first
+session_start();
+
+if ( empty( $_SESSION['Email'] ) ) {
+
+} 
+else {
+    
+    header("Location: User.php");
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
