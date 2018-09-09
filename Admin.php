@@ -10,7 +10,7 @@ if ($_SESSION['Email'] == 'admin@motivehut.com' ) {
 } 
 else {
     // Redirect them to the login page
-    header("Location: Login.php");
+    header("Location: User.php");
 }
 ?>
 
