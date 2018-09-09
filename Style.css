@@ -321,30 +321,19 @@ div.desc {
     z-index: -1;
 }
 
-.Content1 {
-    float:left;
-    background-color:rgba(255,255,255,0.5); 
-
-    position: fixed;
-    top:200px;
-    left:30px;
-    padding: 40px;
-    color:#000000;
-    font-weight: 300;
-    font-size:x-large;
-}
-
 .Content {
     margin-top: 1%;
-    background-color: white; 
+    background-color:; 
     color:  #000000;
     padding: 10px;
-    margin-left:60%;
     margin-right: 10%;
     padding-left: 10px;
     font-size: 12px;
     position: fixed;
-    left:6%;
+    left:40%;
+    border: none;
+    outline: none;
+    overflow: hidden;
 
 }
 
@@ -357,9 +346,8 @@ h3 {
 }
 
 .textbox {
-    background-color: #696969;
+    background-color: white;
     border:2px ;
-    border-radius: 10px;
     font-size: 14px;
     padding:2px;
 }
@@ -392,6 +380,14 @@ td {
     text-decoration: underline;
 }
 
+.placeholder ::placeholder{
+    color: black;
+    font-family: FontAwesome, 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-left: 1px;
+
+}
+}
 
 /*--------------------------------------------------------------------------------------------*/
 /*---------------------------------------------- Login Page ----------------------------------*/
@@ -417,6 +413,8 @@ td {
 .head1
 {
     
+    font-family: FontAwesome, 'Roboto', sans-serif;
+    font-weight: 300;
     float: center;
     font-size: 40px
     border-bottom: 6px solid #4caf50;
@@ -438,6 +436,7 @@ td {
    font-size: 18px;
    width: 320px;
    margin: 10px;
+   padding-left: 2px;
 
 }
 
