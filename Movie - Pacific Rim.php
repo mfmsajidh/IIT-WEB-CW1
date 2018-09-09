@@ -53,12 +53,12 @@ else {
 		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search"></li>
 	</ul>
 
-	<img src="Images/Background/Pacific Rim.jpg" alt="Pacific Rim" width="100%" height="100%">
+	<img src="Images/Background/Pacific Rim.jpg" width="100%" height="100%">
 	<div class="container" style="height: 75%;">
 
 		<br>
 		<br>
-		<h1 id="Movie_Name">Pacific Rim Uprising</h1>
+		<h1>Pacific Rim Uprising</h1>
 		<p><i class="fa fa-info-circle" style="font-size:30px;color:#2a2a57"></i> Available</p>
 		<br>
 		<p><i class="fa fa-male" style="font-size:30px;color:#2a2a57"></i> John Boyega</p>
