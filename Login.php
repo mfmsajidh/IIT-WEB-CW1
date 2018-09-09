@@ -64,7 +64,7 @@ else {
 						<br></br>
 						<button class="Sign1" type ="submit"> Sign In </button>
 												<br></br>
-						<p align="center" class="pf1"> Forgot Your Password? <a href="Contact Us.php" class="click"> Click Here! </a></p>
+						<p align="center" class="pf1"> Forgot Your Password? <a href="#" class="click"> Click Here! </a></p>
 				
 				</div>
 			</div>

@@ -57,9 +57,17 @@ else {
   <!-- End of Navigation Bar -->
 
 <div class="background"> </div>
+  <div class="Content1">
+    <p align="center">Watch Order Purchase Reserve<br> HD Blu Ray Movies With US</p>
+    <hr>
+    <h2 align="center">Register to H U T</h2>
+    <p align="center">Already Have an Account</p>
+    <input type="Submit" value="Sign In" id="cmdlogin" class="btnlogin" onclick="window.location.href='Login.html'">
+
+  </div>
 
   <!-- Division for the Registration Form-->      
-  <div class="Content placeholder">
+  <div class="Content">
   
 
   <font size="4"><p align="center"><b>Sign Up</b></p></font>
@@ -69,11 +77,11 @@ else {
       <!-- Name and Name Text Box-->
                         
       <tr>
-        <td></td>
+        <td><label for="Name">Full Name:</label></td>
       </tr>
 
       <tr>
-        <td><input class="textbox" onkeyup="validateName()" type="text" id="txtname" placeholder="Full Name" name="fullname"><label id ="commentnameprompt"></label></td>
+        <td><input class="textbox" onkeyup="validateName()" type="text" id="txtname" name="fullname"><label id ="commentnameprompt"></label></td>
       </tr>
                         
       <!-- Radio Button for gender-->
@@ -90,47 +98,47 @@ else {
       
       <!-- USER Name and USER Name text box-->
       <tr>
-      	<td></td>
+      	<td><label for="User Name">User Name:</label></td>
       </tr>
 
       <tr>
-      	<td><input onkeyup = "validateUsername()" class="textbox" placeholder="User Name" type="text" id="txtuname" name="username"><label id="commentusername"></label></td>
+      	<td><input onkeyup = "validateUsername()" class="textbox" type="text" id="txtuname" name="username"><label id="commentusername"></label></td>
       </tr>	
     
       <!-- EMAIL and EMAIL text box-->
       <tr>
-      	<td></td>
+      	<td><label for="email">Email:</label></td>
       </tr>
 
       <tr>
-      	<td><input class="textbox" type="Email" placeholder="Email" name="txtemail" id="txtemail1"></td>
+      	<td><input class="textbox" type="Email" name="txtemail" id="txtemail1"></td>
       </tr>
 
       <!-- PASSWORD and PASSWORD text box-->
       <tr>
-      	<td></td>
+      	<td><label for="Password"> Set Password:</label></td>
       </tr>
 
       <tr>
-      	<td><input class="textbox" type="password" name="txtpassword" placeholder="Set Password" id="password1"></td>
+      	<td><input class="textbox" type="password" name="txtpassword" id="password1"></td>
       </tr>
     
       <!-- CONTACT NO and CONTACT NO text box-->
       <tr>
-      	<td></td>
+      	<td><label for="Name">Contact No:</label></td>
       </tr>
 
       <tr>
-      	<td><input name="phonenum" class="textbox" type="text" id="txtno" placeholder="Contact No" pattern="[1-9]{1}[0-9]{9}"></td>
+      	<td><input name="phonenum" class="textbox" type="text" id="txtno" pattern="[1-9]{1}[0-9]{9}"></td>
       </tr>
    
       <!-- ADDRESS and ADDRESSS text box-->
       <tr>
-      	<td></td>
+      	<td><label for="Address">Address:</label></td>
       </tr>
 
       <tr>
-      <td><textarea name="address" class="textbox" placeholder="Address" cols="35" rows="2" id="txtaddress" onkeyup = "validateaddress()"></textarea><label id ="commentaddress"></label></td> 
+      <td><textarea name="address" class="textbox" cols="35" rows="2" id="txtaddress" onkeyup = "validateaddress()"></textarea><label id ="commentaddress"></label></td> 
       </tr>
       
       <!-- CHECK BOX-->
