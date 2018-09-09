@@ -9,7 +9,7 @@ if (isset($_POST['btn1']))
    $actor=$_POST["mactor"];
    $actress=$_POST["mactress"];
 
-     	$query = "insert into movie values('','$name','$status','$actor','$actress',null)";
+     	$query = "insert into movie values('','$name','$status','$actor','$actress','',null)";
 
    $result = mysqli_query($conn,$query);
 
