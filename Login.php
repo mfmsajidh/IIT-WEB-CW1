@@ -40,12 +40,12 @@
          
 
 			<div>
-				<div class="table1">
+				<div class="table1 new_btn">
 					<h1 align="center" class="head1"> Log In </h1>
 						<form method="post">
-						<input class ="text1" type="email" placeholder="Enter E-Mail" name="E-mail">
+						<input class ="text1" type="email" placeholder="Email" name="E-mail">
 						<br></br>
-						<input class ="text1" type="password" placeholder="Enter Password" name="psw">
+						<input class ="text1" type="password" placeholder="Password" name="psw">
 						<br></br>
 						<button class="Sign1" type ="submit"> Sign In </button>
 												<br></br>
