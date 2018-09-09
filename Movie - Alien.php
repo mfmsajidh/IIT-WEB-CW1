@@ -64,7 +64,7 @@ else {
 		<p><i class="fa fa-male" style="font-size:30px;color:#2a2a57"></i> Michael Fassbender</p>
 		<p><i class="fa fa-female" style="font-size:30px;color:#2a2a57"></i> Katherine Waterston</p>
 		<br>
-		<a href="#">Reserve Now <i class="fa fa-wheelchair-alt" style="font-size:25px;color:#2a2a57"></i></a>
+		<a href="ReserveProcess.php">Reserve Now <i class="fa fa-wheelchair-alt" style="font-size:25px;color:#2a2a57"></i></a>
 	</div>
 	
 	<div class="footer">
