@@ -13,7 +13,7 @@
      echo "Connected successfully";
 
 
-    $email = $_POST["E-mail"];  
+    $email = $_POST["Email"];  
     $pass =  $_POST["psw"];
     
     $result = mysqli_query($conn,"SELECT email,password FROM customer WHERE email='$email' ANd password='$pass'");
