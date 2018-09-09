@@ -1,3 +1,20 @@
+<?php
+// You'd put this code at the top of any "protected" page you create
+
+// Always start this first
+session_start();
+
+if ( isset( $_SESSION['Email'] ) ) {
+    // Grab user data from the database using the user_id
+    // Let them access the "logged in only" pages
+    header("Location: User.php");
+} 
+else {
+    // Redirect them to the login page
+    header("Location: Login.php");
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,7 +63,7 @@
 						<form method="post" action="LoginProcess.php">
 						<input class ="text1" type="email" placeholder="Email" name="Email" required>
 						<br></br>
-						<input class ="text1" type="password" placeholder="Password" name="psw" required>
+						<input class ="text1" type="password" placeholder="Password" name="Password" required>
 						<br></br>
 						<button class="Sign1" type ="submit"> Sign In </button>
 												<br></br>
