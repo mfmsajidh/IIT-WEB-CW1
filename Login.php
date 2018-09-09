@@ -42,7 +42,7 @@
 			<div>
 				<div class="table1">
 					<h1 align="center" class="head1"> Log In </h1>
-						<form method="post">
+						<form method="post" action="LoginProcess.php">
 						<input class ="text1" type="email" placeholder="Enter E-Mail" name="E-mail">
 						<br></br>
 						<input class ="text1" type="password" placeholder="Enter Password" name="psw">
