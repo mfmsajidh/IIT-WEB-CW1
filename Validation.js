@@ -55,7 +55,7 @@
                return false;
           }
 
-          if(!name.match(/^[A-Za-z\d\s]+$/))
+          if(!name.match(/^[a-zA-Z\s]+$/))
           {
               producePrompt("Enter a Proper name","commentnameprompt","red");
               return false;
@@ -82,5 +82,15 @@
          if(uname.length == 0)
          {
              producePrompt("UserName is Required","commentusername","red")
+             return false;
          }
+
+          if(!uname.match(/^[a-zA-Z\s]+$/))
+          {
+              producePrompt("Enter a Proper User name","commentusername","red");
+              return false;
+          }
+
+           producePrompt("Welcome "+ uname, "commentusername", "green");
+           return true;s
       }
