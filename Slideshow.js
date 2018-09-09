@@ -93,7 +93,7 @@ function showSlides(n) {
                return false;
           }
 
-          if(|(name.match(/^[a-zA-Z ]{2,30}$/)))
+          if(!name.match(/^[A-Za-z\d\s]+$/))
           {
               producePrompt("Enter a Proper name","commentnameprompt","red");
               return false;
@@ -123,4 +123,3 @@ function showSlides(n) {
          }
       }
 
-      
