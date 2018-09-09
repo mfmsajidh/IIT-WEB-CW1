@@ -42,14 +42,14 @@ else {
 		<li class="navbar dropdown">
 			<a href="javascript:void(0)" class="dropbtn">Movies</a>
 			<div class="dropdown-content">
-				<a href="#Reserve">Reserve Now</a>
-				<a href="#IMG_Gallery">Motion Gallery</a>
-				<a href="#Upcomings">Upcomings</a>
+				<a href="User.php#Reserve">Reserve Now</a>
+				<a href="User.php#IMG_Gallery">Motion Gallery</a>
+				<a href="User.php#Upcomings">Upcomings</a>
 			</div>
 		</li>
 		<li class="navbar"><a class="navbar" href="Contact Us - User.php">Contact Us</a></li>
 		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
-		<li class="navbar_right"><a class="navbar" href="#">Logout</a></li>
+		<li class="navbar_right"><a class="navbar" href="LogoutProcess.php">Logout</a></li>
 		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search"></li>
 	</ul>
 
