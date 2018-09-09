@@ -9,6 +9,6 @@
            die("Connection failed: " . $conn->connect_error);
       } 
          
-     echo "Successfully Connected to the Official Movie H U T Database";
+     echo "Successfully Connected to the Official Movie HUT Database";
 
 ?>

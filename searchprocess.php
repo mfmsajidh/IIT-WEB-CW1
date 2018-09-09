@@ -1,6 +1,7 @@
 <?php
  
-     include(connection.php);
+ echo "Hello";
+/*     include(connection.php);
      //name="search"
      $searchbar = $_POST["search"];
      
@@ -17,5 +18,6 @@
       echo "0 results";
 }
 
+*/
 
 ?>
