@@ -8,6 +8,6 @@ $Movie_ID = $_POST[''];.
 
 
 $query_1 = "INSERT INTO movie (customerId) VALUES ";
-$query_2 = "ALTER TABLE movie MODIFY COLUMN status "
+$query_2 = "ALTER TABLE movie MODIFY COLUMN status ";
 
 ?>
