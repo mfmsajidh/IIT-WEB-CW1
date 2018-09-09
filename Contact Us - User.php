@@ -5,7 +5,7 @@
 session_start();
 
 if ( isset( $_SESSION['Email'] ) ) {
-    // Grab user data from the database using the user_id
+    // Grab user data from the database using the email
     // Let them access the "logged in only" pages
 } 
 else {
@@ -97,7 +97,7 @@ else {
         <i class="fa fa-envelope" style="width:30px"> </i> Email: moviehut@iit.ac.lk<br>
       </div>
       <div class="w3-col m6">
-        <form action="/action_page.php" target="_blank">
+        <form method="post" action="ContactProcess.php">
           <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
               <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">

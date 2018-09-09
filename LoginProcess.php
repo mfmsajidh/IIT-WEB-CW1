@@ -9,9 +9,13 @@
 
    $result = mysqli_query($conn, "SELECT * FROM customer where email='$email' AND password='$password'") or die("Could not execute query: " .mysqli_error($conn));
 
-   if(mysqli_num_rows($result)==1){
+   if($email=='admin@moviehut.com' && $password=='admin'){
     $_SESSION['Email'] = $email;
-    header('location:user.php');
+    header('location:Admin.php');
+   }
+   elseif (mysqli_num_rows($result)==1) {
+    $_SESSION['Email'] = $email;
+    header('location:User.php');
    }
    else{
     header('location:login.php');

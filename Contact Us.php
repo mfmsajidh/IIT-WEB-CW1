@@ -1,3 +1,18 @@
+<?php
+// You'd put this code at the top of any "protected" page you create
+
+// Always start this first
+session_start();
+
+if ( empty( $_SESSION['Email'] ) ) {
+
+} 
+else {
+    
+    header("Location: User.php");
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,7 +64,6 @@
     <li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
     <li class="navbar_right"><a class="navbar" href="Register.php">Register</a></li>
     <li class="navbar_right"><a class="navbar" href="Login.php">Login</a></li>
-    <li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search"></li>
   </ul>
 
 
@@ -82,7 +96,7 @@
         <i class="fa fa-envelope" style="width:30px"> </i> Email: moviehut@iit.ac.lk<br>
       </div>
       <div class="w3-col m6">
-        <form action="/action_page.php" target="_blank">
+        <form method="post" action="ContactProcess.php">
           <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
               <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">

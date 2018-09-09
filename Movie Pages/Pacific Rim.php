@@ -14,7 +14,7 @@
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 
-	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="stylesheet" type="text/css" href="../Style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -32,12 +32,12 @@
 			</div>
 		</li>
 		<li class="navbar"><a class="navbar" href="Contact Us - User.php">Contact Us</a></li>
-		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
+		<li class="navbar_logo"><img src="../Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
 		<li class="navbar_right"><a class="navbar" href="#">Logout</a></li>
 		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search"></li>
 	</ul>
 
-	<img src="Images/Background/Pacific Rim.jpg" alt="Pacific Rim" width="100%" height="100%">
+	<img src="../Images/Background/Pacific Rim.jpg" alt="Pacific Rim" width="100%" height="100%">
 	<div class="container" style="height: 75%;">
 
 		<br>
