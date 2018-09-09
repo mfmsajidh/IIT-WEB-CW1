@@ -50,9 +50,9 @@ else {
 		<p>View, Insert, Update or Delete Movies</p>
 		<br>
 
-		<form>
+		<form method="Post" action="sendingmovie.php">
 
-		<input type="text" id="mid" name="mid" placeholder="Movie ID" disabled>
+		<input type="text" id="mid" name="mid" placeholder="Movie ID" >
 		<input type="text" id="mname" name="fname" placeholder="Movie Name">
 		<input type="text" id="mactor" name="mactor" placeholder="Movie Actor">
 		<input type="text" id="mactress" name="mactress" placeholder="Movie Actress">
@@ -65,10 +65,10 @@ else {
 		
 		<br>
 		<br>
-		<a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">open_in_new</i></a> &nbsp &nbsp &nbsp
+	<button name="btn1"><a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">open_in_new</i></a></button> &nbsp &nbsp &nbsp
 		<a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">library_add</i></a> &nbsp &nbsp &nbsp
-		<a href="#"<i class="material-icons" style="font-size:36px;color:#2a2a57">update</i></a> &nbsp &nbsp &nbsp
-		<a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">delete_sweep</i></a>
+		<a href="#"<i  class="material-icons" style="font-size:36px;color:#2a2a57">update</i></a> &nbsp &nbsp &nbsp
+	<button name="btn2"	<a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">delete_sweep</i></a></button>
 		</form>
 	
 	<hr width="75%">

@@ -1,13 +1,15 @@
 <?php
 
-include("connection.php");
+ include("connection.php");
 
-$name = $_POST("fname");
-$status = $_POST("Available");
-$actor=$_POST("mactor");
-$actress=$_POST("mactress");
+if (isset($_POST['btn1']))
+{
+   $name = $_POST["fname"];
+   $status = $_POST["mstatus"];
+   $actor=$_POST["mactor"];
+   $actress=$_POST["mactress"];
 
-$query = "insert into movie values('','$name','$status','$actor','$actress','')";
+     $query = "insert into movie values('','$name','$status','$actor','$actress',null)";
 
     $result = mysqli_query($conn,$query);
 
@@ -21,9 +23,28 @@ $query = "insert into movie values('','$name','$status','$actor','$actress','')"
    {
          
          
-         //header("Location:Login.php");
-         echo "<script type='text/javascript'>alert('Movie submitted successfully!')</script>";
          
+   	      echo "<script type='text/javascript'>alert('Movie submitted successfully!')</script>";
+          header("Location:Admin.php");
+   }
+}
+
+else
+   {
+             $movieid = $_POST["mid"];
+             $sql = "DELETE FROM  movie WHERE movieId='$movieid'";
+
+            // $result2 = mysqli_query($conn,$query);
+
+             if ($conn->query($sql) === TRUE) {
+                    echo "Record deleted successfully";
+           }  
+
+     else {
+             echo "Error deleting record: ". $conn->error;
+          }
+   
+
    }
 
 ?>
