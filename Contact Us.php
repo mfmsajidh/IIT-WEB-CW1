@@ -102,11 +102,7 @@ else {
               <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
             </div>
             <div class="w3-half">
-<<<<<<< HEAD
               <input class="w3-input w3-border" type="email" placeholder="Email" required name="Email">
-=======
-              <input class="w3-input w3-border" type="email" placeholder="Email" required name="Email" email>
->>>>>>> cae3d46fef5eabe7d0f49c4146ff11cea6ae3aa8
             </div>
           </div>
           <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">

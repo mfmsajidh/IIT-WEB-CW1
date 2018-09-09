@@ -58,13 +58,17 @@ else {
 
 		<br>
 		<br>
-		<h1>The Alien</h1>
-		<p><i class="fa fa-info-circle" style="font-size:30px;color:#2a2a57"></i> Available</p>
-		<br>
-		<p><i class="fa fa-male" style="font-size:30px;color:#2a2a57"></i> Michael Fassbender</p>
-		<p><i class="fa fa-female" style="font-size:30px;color:#2a2a57"></i> Katherine Waterston</p>
-		<br>
-		<a href="ReserveProcess.php">Reserve Now <i class="fa fa-wheelchair-alt" style="font-size:25px;color:#2a2a57"></i></a>
+
+		<form method="post" action="ReserveProcess.php">
+			<h1 id="12">The Alien</h1>
+			<p><i class="fa fa-info-circle" style="font-size:30px;color:#2a2a57"></i> Available</p>
+			<br>
+			<p><i class="fa fa-male" style="font-size:30px;color:#2a2a57"></i> Michael Fassbender</p>
+			<p><i class="fa fa-female" style="font-size:30px;color:#2a2a57"></i> Katherine Waterston</p>
+			<br>
+			<a href="ReserveProcess.php">Reserve Now <i class="fa fa-wheelchair-alt" style="font-size:25px;color:#2a2a57"></i></a>
+		</form>
+
 	</div>
 	
 	<div class="footer">
