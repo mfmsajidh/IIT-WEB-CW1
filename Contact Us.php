@@ -1,3 +1,19 @@
+<?php
+// You'd put this code at the top of any "protected" page you create
+
+// Always start this first
+session_start();
+
+if ( empty( $_SESSION['Email'] ) ) {
+    // Grab user data from the database using the email
+    // Let them access the "logged in only" pages
+} 
+else {
+    // Redirect them to the login page
+    header("Location: User.php");
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
