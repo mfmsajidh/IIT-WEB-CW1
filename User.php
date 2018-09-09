@@ -156,7 +156,7 @@ else {
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Warcraft The Beginning.php">
 		    <img src="Images/Background/Warcraft.jpg" alt="Warcraft" width="300" height="200">
 		  </a>
 		  <div class="desc">Warcraft: The Beginning</div>
