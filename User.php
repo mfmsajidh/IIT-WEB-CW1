@@ -149,14 +149,14 @@ else {
 		</div>
 
 		<div class="gallery">
-		  <a href="Justice League.php">
+		  <a href="Movie - Justice League.php">
 		    <img src="Images/Background/Justice League.jpg" alt="Justice League" width="300" height="200">
 		  </a>
 		  <div class="desc">Justice League</div>
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Movie - Warcraft The Beginning.php">
 		    <img src="Images/Background/Warcraft.jpg" alt="Warcraft" width="300" height="200">
 		  </a>
 		  <div class="desc">Warcraft: The Beginning</div>
@@ -177,7 +177,7 @@ else {
 		</div>
 
 		<div class="gallery">
-		  <a href="Rio 2.php">
+		  <a href="Movie - Rio 2.php">
 		    <img src="Images/Background/Rio 2.jpg" alt="Rio 2" width="300" height="200">
 		  </a>
 		  <div class="desc">Rio 2</div>
