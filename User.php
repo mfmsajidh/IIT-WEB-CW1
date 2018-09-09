@@ -163,14 +163,14 @@ else {
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Movie - Dawn of The Planet of The Apes.php">
 		    <img src="Images/Background/Dawn of The Planet of The Apes.jpg" alt="Dawn of The Planet of The Apes" width="300" height="200">
 		  </a>
 		  <div class="desc">Dawn of The Planet of The Apes</div>
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Movie - Skyfall 007.php">
 		    <img src="Images/Background/Skyfall 007.jpg" alt="Skyfall 007" width="300" height="200">
 		  </a>
 		  <div class="desc">Skyfall 007</div>
@@ -184,70 +184,70 @@ else {
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Movie - Assassins Creed.php">
 		    <img src="Images/Background/Assassins Creed.jpg" alt="Assassins Creed" width="300" height="200">
 		  </a>
 		  <div class="desc">Assassin's Creed</div>
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Movie - Hobbit.php">
 		    <img src="Images/Background/Hobbit.jpg" alt="Hobbit" width="300" height="200">
 		  </a>
 		  <div class="desc">Hobbit: An Unexpected Journey</div>
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Movie - Foreigner.php">
 		    <img src="Images/Background/Foreigner.jpg" alt="Foreigner" width="300" height="200">
 		  </a>
 		  <div class="desc">The Foreigner</div>
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Movie - Happy New Year.php">
 		    <img src="Images/Background/Happy New Year.jpg" alt="Happy New Year" width="300" height="200">
 		  </a>
 		  <div class="desc">Happy New Year</div>
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Movie - Martian.php">
 		    <img src="Images/Background/Martian.jpg" alt="The Martian" width="300" height="200">
 		  </a>
 		  <div class="desc">The Martian</div>
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Movie - Alien.php">
 		    <img src="Images/Background/Alien.jpg" alt="Alien" width="300" height="200">
 		  </a>
 		  <div class="desc">Alien</div>
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Movie - Venom.php">
 		    <img src="Images/Background/Venom.jpg" alt="Venom" width="300" height="200">
 		  </a>
 		  <div class="desc">Venom</div>
 		</div>
 
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Movie - Tomb Raider.php">
 		    <img src="Images/Background/Tomb Raider.jpg" alt="Tomb Raider" width="300" height="200">
 		  </a>
 		  <div class="desc">Tomb Raider</div>
 		</div>
 		
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a href="Movie - Dracula">
 		    <img src="Images/Background/Dracula.jpg" alt="Dracula" width="300" height="200">
 		  </a>
 		  <div class="desc">Dracula</div>
 		</div>
 		
 		<div class="gallery">
-		  <a target="_blank" href="#">
+		  <a target="_blank" href="Movie - MI6.php">
 		    <img src="Images/Background/MI6.jpg" alt="Mission Impossible Fallout" width="300" height="200">
 		  </a>
 		  <div class="desc">Mission Impossible 6: Fallout</div>
