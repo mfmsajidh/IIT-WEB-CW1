@@ -53,16 +53,16 @@ else {
 		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search"></li>
 	</ul>
 
-	<img src="Images/Background/Warcraft.jpg" width="100%" height="100%">
+	<img src="Images/Background/Happy New Year.jpg" width="100%" height="100%">
 	<div class="container" style="height: 75%;">
 
 		<br>
 		<br>
-		<h1>Warcraft The Beginning</h1>
+		<h1>Happy New Year</h1>
 		<p><i class="fa fa-info-circle" style="font-size:30px;color:#2a2a57"></i> Available</p>
 		<br>
-		<p><i class="fa fa-male" style="font-size:30px;color:#2a2a57"></i> Travis Fimmel</p>
-		<p><i class="fa fa-female" style="font-size:30px;color:#2a2a57"></i> Paula Patton</p>
+		<p><i class="fa fa-male" style="font-size:30px;color:#2a2a57"></i> Shahrukh Khan</p>
+		<p><i class="fa fa-female" style="font-size:30px;color:#2a2a57"></i> Deepika Padukone</p>
 		<br>
 		<a href="#">Reserve Now <i class="fa fa-wheelchair-alt" style="font-size:25px;color:#2a2a57"></i></a>
 	</div>
