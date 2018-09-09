@@ -1,3 +1,19 @@
+<?php
+// You'd put this code at the top of any "protected" page you create
+
+// Always start this first
+session_start();
+
+if ( isset( $_SESSION['Email'] ) ) {
+    // Grab user data from the database using the user_id
+    // Let them access the "logged in only" pages
+} 
+else {
+    // Redirect them to the login page
+    header("Location: Login.php");
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,7 +49,7 @@
 		</li>
 		<li class="navbar"><a class="navbar" href="Contact Us - User.php">Contact Us</a></li>
 		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
-		<li class="navbar_right"><a class="navbar" href="#">Logout</a></li>
+		<li class="navbar_right"><a class="navbar" href="LogoutProcess.php">Logout</a></li>
 		<li class="navbar_right"><input type="text" name="search" placeholder="&#xf002 Search" class="Search"></li>
 	</ul>
 
@@ -109,7 +125,7 @@
 
 	<div class="container" id="Reserve">
 		<br>
-		<h1>Welcome Sajidh</h1>
+		<h1>Welcome</h1>
 		<p>Last Minute Movie Browsings ????? <br> No Problem <br> We have the right set of Movies for all your needs</p>
 		<a href="#IMG_Gallery">Reserve Now <i class="fa fa-arrow-circle-right" style="font-size:25px;color:#2a2a57"></i></a>
 	</div>
