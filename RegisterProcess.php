@@ -1,9 +1,9 @@
 <?php
    
     include("connection.php");
-    echo "<br>";
-
     
+
+    $number = rand(100,500);
     $name = $_POST["fullname"];
     $gender = $_POST["gender"];
     $username = $_POST["username"];
@@ -12,7 +12,7 @@
     $no = $_POST["phonenum"];
     $address = $_POST["address"];
 
-    $query = "insert into customer values('104','$name','$gender','$username','$email','$password','$no','$address')";
+    $query = "insert into customer values('$number','$name','$gender','$username','$email','$password','$no','$address')";
 
     $result = mysqli_query($conn,$query);
 
