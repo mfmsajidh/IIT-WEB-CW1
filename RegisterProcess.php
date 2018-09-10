@@ -25,9 +25,18 @@
    else
    {
          
-         
-         header("Location:Login.php");
-         echo "<script type='text/javascript'>alert('submitted successfully!')</script>";
+         require('Textlocal.class.php');
+ 
+          $Textlocal = new Textlocal(false, false, 'LbAkl2aUwcI-Qg4Snbq7PKHiTdKepg4G39l9glLFAk');
+            
+          $numbers = array($no);
+          $sender = 'Movie Hut';
+          $message = "Welcome to movie hut. Now you can reserve latest movies from us.";
+ 
+          $response = $Textlocal->sendSms($numbers, $message, $sender);
+
+          header("Location:Login.php");
+          echo "<script type='text/javascript'>alert('submitted successfully!')</script>";
          
    }
 

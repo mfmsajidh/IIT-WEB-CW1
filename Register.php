@@ -129,7 +129,7 @@ else {
       </tr>
 
       <tr>
-      	<td><input name="phonenum" class="textbox" type="text" id="txtno" pattern="[1-9]{1}[0-9]{9}"></td>
+      	<td><input name="phonenum" class="textbox" type="text" id="txtno"></td>
       </tr>
    
       <!-- ADDRESS and ADDRESSS text box-->
