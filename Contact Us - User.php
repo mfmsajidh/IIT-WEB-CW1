@@ -64,12 +64,11 @@ else {
     </li>
     <li class="navbar"><a class="navbar" href="Contact Us - User.php">Contact Us</a></li>
     <li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
-    <li class="navbar_right"><a class="navbar" href="LogoutProcess.php">Logout</a></li>
+    <li class="navbar_right"><a class="navbar" href="LogoutProcess.php"><i class="fa fa-sign-out"></i> Logout</a></li>
     
     <form name="S_form" id="S_form" method="post" action="searchprocess.php">
-      <li class="navbar_right"><a class="navbar" href="javascript:{}" onclick="document.getElementById('S_form').submit(); return false;"><i class="fa fa-search"></i></a></li>
-      <li class="navbar_right"><input type="text" name="search12" placeholder="Search ....." class="Search"></li>
-      </form>
+      <li class="navbar_right"><input type="text" name="search12" placeholder="&#xf002 Search" class="Search"></li>
+    </form>
   </ul>
 
 

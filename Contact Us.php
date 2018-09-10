@@ -62,8 +62,8 @@ else {
     </li>
     <li class="navbar"><a class="navbar" href="Contact Us.php">Contact Us</a></li>
     <li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
-    <li class="navbar_right"><a class="navbar" href="Register.php">Register</a></li>
-    <li class="navbar_right"><a class="navbar" href="Login.php">Login</a></li>
+    <li class="navbar_right"><a class="navbar" href="Login.php"><i class="fa fa-sign-in"></i> Login</a></li>
+    <li class="navbar_right"><a class="navbar" href="Register.php"><i class="fa fa-edit"></i> Register</a></li>
   </ul>
 
 

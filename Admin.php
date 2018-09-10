@@ -41,7 +41,7 @@ else {
 		<li class="navbar"><a class="navbar active" href="#"><i class="fa fa-video-camera" style="font-size:16px"></i></a></li>
 		
 		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
-		<li class="navbar_right"><a class="navbar" href="LogoutProcess.php">Logout</a></li>
+		<li class="navbar_right"><a class="navbar" href="LogoutProcess.php"><i class="fa fa-sign-out"></i> Logout</a></li>
 	</ul>
 
 	<div class="container new_btn" style="height: 100%;">
