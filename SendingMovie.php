@@ -23,7 +23,7 @@ if (isset($_POST['btn1']))
 
    $result = mysqli_query($conn,$query) or die ("Could not execute query: ".mysqli_error($conn));
 
-  echo "successfully Inserted Movie Details";
+  echo "Successfully Inserted New Record";
   echo "<script>setTimeout(\"location.href = 'Admin.php';\",1000);</script>";
 
 }
@@ -36,7 +36,8 @@ elseif (isset($_POST['btn2']))
             // $result2 = mysqli_query($conn,$query);
 
              if ($conn->query($sql) === TRUE) {
-                    echo "Record deleted successfully";
+                    echo "Successfully deleted record";
+                    echo "<script>setTimeout(\"location.href = 'Admin.php';\",1000);</script>";
              }  
 
         	 else {
@@ -53,7 +54,8 @@ elseif (isset($_POST['btn4']))
    			 $sql1 = "UPDATE movie SET status ='$stat' WHERE movieid ='$movieid'";
 
    			 if ($conn->query($sql1) === TRUE) {
-                    echo "Record updated successfully";
+                    echo "Successfully Updated Record";
+                    echo "<script>setTimeout(\"location.href = 'Admin.php';\",1000);</script>";
                  }           
 
              else {
