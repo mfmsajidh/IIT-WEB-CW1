@@ -9,21 +9,23 @@ if (isset($_POST['btn1']))
    $actor=$_POST["mactor"];
    $actress=$_POST["mactress"];
 
-     	$query = "insert into movie values('','$name','$status','$actor','$actress','',null)";
-
-   $result = mysqli_query($conn,$query);
-
-   if(!$result)
-   {
-   	  die(mysqli_error());
-   }
-
+   $upload_image=$_FILES["mimage"]["name"];
+   $folder="Images/Background/";
+   move_uploaded_file($_FILES["mimage"]["tmp_name"], "$folder".$_FILES["mimage"]["name"]);
    
-   else
-   {
-   	      echo "Successfully sent to database";
-          
-   }
+  /*
+   $insert_path="INSERT INTO image_table VALUES('$folder','$upload_image')";
+   $var=mysql_query($insert_path);
+  */
+   $image_loc_name = $folder.$upload_image;
+
+   $query = "INSERT INTO movie values('','$name','$status','$actor','$actress','$image_loc_name',null)";
+
+   $result = mysqli_query($conn,$query) or die ("Could not execute query: ".mysqli_error($conn));
+
+  echo "successfully Inserted Movie Details";
+  echo "<script>setTimeout(\"location.href = 'Admin.php';\",1000);</script>";
+
 }
 
 elseif (isset($_POST['btn2']))
