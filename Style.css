@@ -506,3 +506,33 @@ td {
     float: left;
 }
 
+.upload {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+}
+
+.upload + label {
+    width: 200px;
+    height:40px;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    line-height: 2.6em;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #2a2a57;
+    display: inline-block;
+    transition: 150ms;
+}
+
+.upload:focus + label,
+.upload + label:hover {
+    opacity: 0.8;
+    cursor:pointer;
+}
+
+.upload:focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}

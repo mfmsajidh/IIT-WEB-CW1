@@ -50,7 +50,7 @@ else {
 		<p>Insert, Update or Delete Movies</p>
 		<br>
 
-		<form method="Post" action="sendingmovie.php">
+		<form method="Post" action="sendingmovie.php" enctype="multipart/form-data">
 
 		<input type="text" id="mid" name="mid" placeholder="Movie ID" >
 		<input type="text" id="mname" name="fname" placeholder="Movie Name">
@@ -62,7 +62,9 @@ else {
       		<option value="Available">Available</option>
       		<option value="Borrowed">Borrowed</option>
     	</select>
-		
+		<br>
+		<input type="file" id="mimage" name="mimage" class="upload">
+		<label for="mimage">Choose Image</label>
 		<br>
 		<br>
 	
@@ -92,8 +94,8 @@ else {
 			
 			<br>
 			<br>
-			<a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">navigate_before</i></a> &nbsp &nbsp &nbsp
-			<a href="#"><i class="material-icons" style="font-size:36px;color:#2a2a57">navigate_next</i></a>
+			<a href="#"><i class="fa fa-angle-double-left" style="font-size:36px;color:#2a2a57"></i></a> &nbsp &nbsp &nbsp
+			<a href="#"><i class="fa fa-angle-double-right" style="font-size:36px;color:#2a2a57"></i></a>
 			</form>
 		</div>
 	</div>
