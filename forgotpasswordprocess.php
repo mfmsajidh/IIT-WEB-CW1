@@ -3,7 +3,7 @@
    $number = rand(1,1000000);
    echo "<script type='text/javascript'>
              alert('You will receive a message Shorty');
-             window.location.replace('Fogot Password.php');
+             window.location.replace('FogotPassword.php');
            
            </script>"
 
