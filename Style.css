@@ -536,3 +536,47 @@ td {
     outline: 1px dotted #000;
     outline: -webkit-focus-ring-color auto 5px;
 }
+
+/*--------------------------------------------------------------------------------------------*/
+/*---------------------------------------------- Forgot Password ----------------------------------*/
+
+
+.tableF
+{
+   width: 25%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: Black;
+}
+
+.textF1
+{
+   width: 100%;
+   overflow: hidden;
+   font-size: 20px;
+   padding: 8px 0;
+   margin: 8px 0;
+   border-bottom: 1px solid #4caf50;
+   border: none;
+   outline: none;
+   background-color: Gray;
+   font-size: 18px;
+   width: 320px;
+   margin: 10px;
+
+}
+
+.SignF1
+{
+    width: 100%;
+    background: none;
+    border: 1px solid;
+    color: Black;
+    padding: 5px; 
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px 0;
+
+}
