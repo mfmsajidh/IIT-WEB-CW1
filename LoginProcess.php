@@ -26,7 +26,12 @@
     header('location:User.php');
    }
    else{
-    header('location:login.php');
+          
+    echo'<script tyope="text/javascript"> 
+              window.location.replace("login.php");
+              alert("Email or Password is Wrong");
+          </script>';
+   // header('location:login.php');
   }
 
 ?>

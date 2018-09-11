@@ -31,12 +31,15 @@
             
           $numbers = array($no);
           $sender = 'Movie Hut';
-          $message = "Welcome to movie hut. Now you can reserve latest movies from us.";
+          $message = "Welcome to movie hut. Now you can reserve latest movies from us. \n Your ID is  ".$number ;
  
           $response = $Textlocal->sendSms($numbers, $message, $sender);
 
-          header("Location:Login.php");
-          echo "<script type='text/javascript'>alert('submitted successfully!')</script>";
+         // header("Location:Login.php");
+           echo'<script tyope="text/javascript"> 
+              window.location.replace("login.php");
+              alert("WELCOME TO MOVIE HUT YOU HAVE BEEN REGISTERED SUCCESSFULLY \n YOU WILL RECIEVE AN MESSAGE SHORTLY");
+          </script>';
          
    }
 
