@@ -58,13 +58,13 @@ else {
 					<h1 align="center" class="head1"> Log In </h1>
 
 						<form method="post" action="LoginProcess.php">
-						<input class ="text1" type="email" placeholder="Email" name="Email" required>
+						<input class ="text1" type="text" placeholder="Customer ID" name="txt1" required>
 						<br></br>
 						<input class ="text1" type="password" placeholder="Password" name="Password" required>
 						<br></br>
 						<button class="Sign1" type ="submit"> Sign In </button>
 												<br></br>
-						<p align="center" class="pf1"> Forgot Your Password? <a href="#" class="click"> Click Here! </a></p>
+						<p align="center" class="pf1"> Forgot Your Password? <a href="forgotpasswordprocess.php" class="click"> Click Here! </a></p>
 				
 				</div>
 			</div>

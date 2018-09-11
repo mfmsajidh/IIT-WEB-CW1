@@ -96,6 +96,9 @@ else {
 			<br>
 			<a href="#"><i class="fa fa-angle-double-left" style="font-size:36px;color:#2a2a57"></i></a> &nbsp &nbsp &nbsp
 			<a href="#"><i class="fa fa-angle-double-right" style="font-size:36px;color:#2a2a57"></i></a>
+
+			<br><br>
+
 			</form>
 		</div>
 	</div>

@@ -17,8 +17,12 @@
    else
    {
         // $message = "Thanks for your Feedback";
-         echo "<script type='text/javascript'>alert('$message');</script>";
-         header("Location:Contact Us - User.php");
+       
+        echo'<script tyope="text/javascript"> 
+              window.location.replace("Contact Us - User.php");
+              alert("Thank you for your Feedback we will consider");
+          </script>';
+        // header("Location:Contact Us - User.php");
          
    }
 

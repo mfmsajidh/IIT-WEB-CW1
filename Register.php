@@ -58,7 +58,7 @@ else {
 
 <div class="background"> </div>
   <div class="Content1">
-    <p align="center">Watch Order Purchase Reserve<br> HD Blu Ray Movies With US</p>
+    <p align="center">Reserve Movies from us<br> HD Blu Ray Movies </p>
     <hr>
     <h2 align="center">Register to H U T</h2>
     <p align="center">Already Have an Account</p>
