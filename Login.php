@@ -64,7 +64,7 @@ else {
 						<br></br>
 						<button class="Sign1" type ="submit"> Sign In </button>
 												<br></br>
-						<p align="center" class="pf1"> Forgot Your Password? <a href="forgotpasswordprocess.php" class="click"> Click Here! </a></p>
+						<p align="center" class="pf1"> Forgot Your Password? <a href="Otp.php" class="click"> Click Here! </a></p>
 				
 				</div>
 			</div>

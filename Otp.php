@@ -27,10 +27,14 @@
 				<div class="table1 new_btn">
 					<h1 align="center" class="head1"> Please type your OTP code </h1>
 
-						<form method="post" action="LoginProcess.php">
-						<input class ="text1" type="txt" placeholder="OTP Code" name="txt1" required>
+						<form method="post" action="forgotpasswordprocess.php">
+						<input type="text"  class="text1" placeholder="Phone Number" name="txt1" required>	
+						<button class="Sign1" type ="submit" name="phonesub" > Submit Phone Number </button>
 						<br></br>
-						<button class="Sign1" type ="submit"> Submit </button>
+						
+						<br><br>
+						<input class ="text1" type="txt" placeholder="OTP Code" name="txt2">
+						<button class="Sign1" type ="submit" name="otpsub"> Submit Otp Code </button>
 						
 				
 				</div>
