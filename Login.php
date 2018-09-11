@@ -58,7 +58,7 @@ else {
 					<h1 align="center" class="head1"> Log In </h1>
 
 						<form method="post" action="LoginProcess.php">
-						<input class ="text1" type="text" placeholder="Customer ID" name="txt1" required>
+						<input class ="text1" type="email" placeholder="Email" name="Email" required>
 						<br></br>
 						<input class ="text1" type="password" placeholder="Password" name="Password" required>
 						<br></br>
