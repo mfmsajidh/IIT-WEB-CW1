@@ -4,15 +4,16 @@
 
    require("connection.php");
 
-   $email = $_POST['Email'];
+   $email = $_POST['txt1'];
    $password = $_POST['Password'];
 
-   $result = mysqli_query($conn, "SELECT * FROM customer where email='$email' AND password='$password'") or die("Could not execute query: " .mysqli_error($conn));
+   $result = mysqli_query($conn, "SELECT * FROM customer where customerId='$email' AND password='$password'") or die("Could not execute query: " .mysqli_error($conn));
 
    if($email=='admin@moviehut.com' && $password=='admin'){
     $_SESSION['Email'] = $email;
     header('location:Admin.php');
    }
+
    elseif (mysqli_num_rows($result)==1) {
     $_SESSION['Email'] = $email;
 
@@ -21,6 +22,8 @@
 
     $_SESSION['FullName'] = $row["fullName"];
     $_SESSION['CustomerId'] = $row["customerId"];
+
+
 
     
     header('location:User.php');

@@ -20,7 +20,7 @@
        
         echo'<script tyope="text/javascript"> 
               window.location.replace("Contact Us - User.php");
-              alert("Thank you for your Feedback");
+              alert("Thank you for your Feedback we will consider");
           </script>';
         // header("Location:Contact Us - User.php");
          
