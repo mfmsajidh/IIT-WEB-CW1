@@ -1,12 +1,12 @@
 <?php
  // session_start();   
 
- if(isset($POST["phonesub"]))
+ if(isset($_POST["phonesub"]))
  {  
   
 
-   $no = $_POST("txt1");
-   $number = rand(1,1000000);
+   $no = $_POST["txt111"];
+   $number = rand(1,1000);
   // $_SESSION('number')=$number;
   
 
@@ -16,7 +16,7 @@
             
           $numbers = array($no);
           $sender = 'Movie Hut';
-          $message = "Your OTP code is  ".$number+"   Please use this to change your password" ;
+          $message = "Your OTP code is  ".$number."   Please use this to change your password" ;
  
           $response = $Textlocal->sendSms($numbers, $message, $sender);
 
@@ -27,13 +27,23 @@
            </script>";
 }
 
+
  if(isset($POST["otpsub"]))
 {
    
-    $otpno = $_POST["txt2"];
+    $otpno = $_POST["txt222"];
     if($otpno == $number)
     {
     	 header("location:FogotPassword.php");
+    }
+
+    else
+    {
+    	 echo '<script type="text/javascript">
+             alert("Enter the Proper OTP CODE");
+             window.location.replace("Otp.php");
+           
+           </script>';
     }
 }
 ?>

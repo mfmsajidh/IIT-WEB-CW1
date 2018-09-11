@@ -28,13 +28,15 @@
 					<h1 align="center" class="head1"> Please type your OTP code </h1>
 
 						<form method="post" action="forgotpasswordprocess.php">
-						<input type="text"  class="text1" placeholder="Phone Number" name="txt1" required>	
+
+						<input type="text"  class="text1" placeholder="Phone Number" name="txt111" >	
 						<button class="Sign1" type ="submit" name="phonesub" > Submit Phone Number </button>
 						<br></br>
 						
 						<br><br>
-						<input class ="text1" type="txt" placeholder="OTP Code" name="txt2">
+						<input class ="text1" type="txt" placeholder="OTP Code" name="txt222">
 						<button class="Sign1" type ="submit" name="otpsub"> Submit Otp Code </button>
+					</form>
 						
 				
 				</div>
