@@ -54,10 +54,10 @@ else {
          
 
 			<div>
-				<div "class="table1 new_btn">
+				<div class="table1 new_btn">
 					<h1 align="center" class="head1"> Log In </h1>
 
-						<form method="post" action="LoginProcess.php" align="center">
+						<form method="post" action="LoginProcess.php">
 						<input class ="text1" type="email" placeholder="Email" name="Email" required>
 						<br></br>
 						<input class ="text1" type="password" placeholder="Password" name="Password" required>
