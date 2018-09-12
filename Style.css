@@ -581,3 +581,11 @@ td {
     margin: 10px 0;
 
 }
+
+.bodyF
+{
+    background: url("Images/Background/Nafeel.jpg") no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
