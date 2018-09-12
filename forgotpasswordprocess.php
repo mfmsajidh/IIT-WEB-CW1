@@ -1,24 +1,27 @@
 <?php
  // session_start();   
+ 
+include("connection.php");
+$no = $_POST["txt111"];
+$sql =" SELECT contactNo FROM customer WHERE contactNo ='$no' ";
 
-$number = rand(1,1000);
+$result = mysqli_query($conn,$sql);
+
+//$number = rand(1,1000);
 
  if(isset($_POST["phonesub"]))
  {  
-  
-
-   $no = $_POST["txt111"];
-   
-  // $_SESSION('number')=$number;
-  
-
+         
+      if(mysqli_num_rows($result)==1)
+      {
+          // $_SESSION('number')=$number;
           require('Textlocal.class.php');
  
-          $Textlocal = new Textlocal(false, false, 'LbAkl2aUwcI-Qg4Snbq7PKHiTdKepg4G39l9glLFAk');
+          $Textlocal = new Textlocal(false, false, 'rTCVudG1fsI-Lw5X1d7WFEyrcdvMW9kMXJa1LeugaW');
             
           $numbers = array($no);
           $sender = 'Movie Hut';
-          $message = "Your OTP code is  ".$number."   Please use this to change your password" ;
+          $message = "Your OTP code is  10102345   Please use this to change your password" ;
  
           $response = $Textlocal->sendSms($numbers, $message, $sender);
 
@@ -27,6 +30,16 @@ $number = rand(1,1000);
              window.location.replace('Otp.php');
            
            </script>";
+       }
+
+       else{
+
+       	     echo "<script type='text/javascript'>
+             alert('Your Phone number is not Available in the DATABASE');
+             window.location.replace('Otp.php');
+           
+           </script>";
+       }
 
 }
 
@@ -34,14 +47,18 @@ $number = rand(1,1000);
  else
 {
    
-    $otpno = $_POST["txt222"];
-    if($number == $otpno)
+   $otpno =  10102345 ;
+    //$_POST["txt222"];
+
+    if($otpno == $_POST["txt222"] )
     {
     	 header("Location:FogotPassword.php");
+    	 
     }
 
     else
     {
+    	 
     	 echo '<script type="text/javascript">
              alert("Enter the Proper OTP CODE");
              window.location.replace("Otp.php");
