@@ -25,7 +25,7 @@
 					<h1 align="center" class="head1"> Forgot Password </h1>
 
 						<form method="post" action="Settingnewpassword.php">
-						<input class ="textF1" type="Txt" placeholder="Customer ID" name="custId" required>
+						<input class ="textF1" type="Txt" placeholder="Customer ID" name="custId" id="1100" required onsubmit="validateUserId()">
 						<br></br>
 						<input class ="textF1" type="password" placeholder="New Password" name="Password1" required>
 						<br></br>
