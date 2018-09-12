@@ -118,5 +118,25 @@
       }
 
       
+//---------------------- Validating the OTP CODe-------------  
 
-  
+  validateUserId(){
+
+
+      var regex = /^[0-9\s]*$/;
+      var x= document.getElementById("1100").value;
+      if(x.match(regex))
+      {
+            return true;
+      }
+
+      else
+      {
+          
+          document.getElementById("1100").style.color ="red";
+          document.getElementById("1100").value = "Please Enter a number";
+          return false;
+
+      }
+
+  }
