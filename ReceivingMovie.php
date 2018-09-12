@@ -8,17 +8,41 @@ $result = mysqli_query($conn,$query) or die ("Could not execute query: ".mysqli_
 
 $row=mysqli_fetch_assoc($result);
 
-$cId = row["customerId"];
-$cName = row["fullName"];
-$cGender = row["gender"];
-$cUser = row["username"];
-$cEmail = row["email"];
-$cNumber = row["contactNo"];
-$cAddress = row["address"];
+echo count($row);
+
+$row=mysqli_fetch_assoc($result);
+
+ while ($row=mysqli_fetch_row($result))
+   {
+
+   	$cId = $row[0,"customerId"];
+	$cName = $row[0,"fullName"];
+	$cGender = $row[0,"gender"];
+	$cUser = $row["username"];
+	$cEmail = $row["email"];
+	$cNumber = $row["contactNo"];
+	$cAddress = $row["address"];
+
+	$mId1 = $row["movieId"];
+	$mName1 = $row["movieName"];
+	$mActor1 = $row["actor"];
+	$mActress1 = $row["actress"]; 
+
+    printf ("%s (%s)\n",$row[0],$row[1]);
+    }
+
+/*
+$cId = $row["customerId"];
+$cName = $row["fullName"];
+$cGender = $row["gender"];
+$cUser = $row["username"];
+$cEmail = $row["email"];
+$cNumber = $row["contactNo"];
+$cAddress = $row["address"];
 
 $mId1 = $row["movieId"];
 $mName1 = $row["movieName"];
-$mActor1 = $row["Actor"];
-$mActress1 = $row["Actress"];
-
+$mActor1 = $row["actor"];
+$mActress1 = $row["actress"];
+*/
 ?>
