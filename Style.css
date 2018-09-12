@@ -541,7 +541,6 @@ td {
 /*---------------------------------------------- Forgot Password ----------------------------------*/
 
 
-
 .tableF
 {
    width: 25%;
@@ -595,13 +594,13 @@ td {
 
 #bodysignin1
 {
-    background: url("Images/Background/FogotNoFeeling.jpg");
+    background: url("Images/Background/FogotNoFeeling.jpg") no-repeat;
     margin: 0;
     padding: 0;
     background-size: cover;
 }
 
-.table1
+.table1n
 {
    width: 25%;
    position: absolute;
@@ -611,7 +610,7 @@ td {
    color: white;
 }
 
-.head1
+.head1n
 {
     
     float: center;
@@ -622,9 +621,9 @@ td {
     
 }
 
-.text1
+.textn
 {
-   width: 100%;
+   width:100%;
    overflow: hidden;
    font-size: 20px;
    padding: 8px 0;
@@ -633,12 +632,12 @@ td {
    border: none;
    outline: none;
    font-size: 18px;
-   width: 320px;
+   width: 400px;
    margin: 10px;
 
 }
 
-.Sign1
+.Sign1n
 {
     width: 100%;
     background: none;
@@ -649,21 +648,4 @@ td {
     cursor: pointer;
     margin: 10px 0;
 
-}
-.Sign2
-{
-    font-weight:Bold;
-    margin-left:7%;
-    border-radius:10px;
-    height:10%;
-    width:40%;
-    background-color:#1E90FF;
-    color:White;
-    font-size:150%;
-}
-
-.click
-{
-    color:Red;
-    font-weight:Bold;
 }

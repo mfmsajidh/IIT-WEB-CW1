@@ -24,19 +24,20 @@
 
 
 			<div>
-				<div class="table1 new_btn">
-					<h1 align="center" class="head1"> Please type your OTP code </h1>
+				<div class="table1n new_btn">
+					<h1 align="center" class="head1n"> Please type your OTP code </h1>
 
 						<form method="post" action="forgotpasswordprocess.php">
 
-						<input type="text"  class="text1" placeholder="Phone Number" name="txt111" >	
-						<button class="Sign1" type ="submit" name="phonesub" > Submit Phone Number </button>
-						<br></br>
+						<input class="textn" type="txt" placeholder="Phone Number" name="txt111" >	
+						<button class="Sign1n" type ="submit" name="phonesub" > Submit Phone Number </button>
+						<br>
 						
-						<br><br>
-						<input class ="text1" type="txt" placeholder="OTP Code" name="txt222">
-						<button class="Sign1" type ="submit" name="otpsub"> Submit Otp Code </button>
-					</form>
+						<br>
+						<input class ="textn" type="txt" placeholder="OTP Code" name="txt222">
+						<button class="Sign1n" type ="submit" name="otpsub"> Submit Otp Code </button>
+					    
+					    </form>
 						
 				
 				</div>
