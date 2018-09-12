@@ -24,14 +24,16 @@
 				<div class="tableF new_btn">
 					<h1 align="center" class="head1"> Forgot Password </h1>
 
-						<form method="post" action="forgotpasswordprocess.php">
-						<input class ="textF1" type="Txt" placeholder="Customer ID" name="OTP Code" required>
+						<form method="post" action="Settingnewpassword.php">
+						<input class ="textF1" type="Txt" placeholder="Customer ID" name="custId" required>
 						<br></br>
-						<input class ="textF1" type="password" placeholder="New Password" name="Password" required>
+						<input class ="textF1" type="password" placeholder="New Password" name="Password1" required>
 						<br></br>
-						<input class ="textF1" type="password" placeholder="Re-Password" name="Password" required>
+						<input class ="textF1" type="password" placeholder="Re-Password" name="Password2" required>
 						<br></br>
 						<button class="SignF1" type ="submit"> Set New Password </button>
+
+					</form>
 												<br></br>
 				
 				</div>

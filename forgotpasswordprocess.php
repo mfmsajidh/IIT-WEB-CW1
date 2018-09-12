@@ -1,12 +1,14 @@
 <?php
  // session_start();   
 
+$number = rand(1,1000);
+
  if(isset($_POST["phonesub"]))
  {  
   
 
    $no = $_POST["txt111"];
-   $number = rand(1,1000);
+   
   // $_SESSION('number')=$number;
   
 
@@ -25,16 +27,17 @@
              window.location.replace('Otp.php');
            
            </script>";
+
 }
 
 
- if(isset($POST["otpsub"]))
+ else
 {
    
     $otpno = $_POST["txt222"];
-    if($otpno == $number)
+    if($number == $otpno)
     {
-    	 header("location:FogotPassword.php");
+    	 header("Location:FogotPassword.php");
     }
 
     else
@@ -46,6 +49,7 @@
            </script>';
     }
 }
+
 ?>
 
 
