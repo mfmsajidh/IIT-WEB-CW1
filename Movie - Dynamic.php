@@ -20,6 +20,7 @@ if ( isset( $_SESSION['Email'] ) ) {
     $movieActor = $row["actor"];
     $movieActress = $row["actress"];
     $movieImage = $row["Image"];
+    $movieBtnStatus = $row["btn_status"];
 } 
 else {
     // Redirect them to the login page
@@ -50,7 +51,7 @@ else {
 <body>
 
   <ul class="navbar">
-    <li class="navbar"><a class="navbar active" href="User.php"><i class="fa fa-video-camera" style="font-size:16px"></i></a></li>
+	<li class="navbar"><a class="navbar active" href="Index.php"><i class="fa fa-video-camera" style="font-size:16px"></i> Home</a></li>
     <li class="navbar dropdown">
       <a href="javascript:void(0)" class="dropbtn">Movies</a>
       <div class="dropdown-content">
@@ -81,7 +82,7 @@ else {
 			<p><i class="fa fa-male" style="font-size:30px;color:#2a2a57"></i> <?php echo $movieActor; ?></p>
 			<p><i class="fa fa-female" style="font-size:30px;color:#2a2a57"></i> <?php echo $movieActress; ?></p>
 			<br>
-			<a href="ReserveProcess.php?id=<?php echo $id; ?>">Reserve Now <i class="fa fa-wheelchair-alt" style="font-size:25px;color:#2a2a57"></i></a>
+			<a href="ReserveProcess.php?id=<?php echo $id; ?>"><?php echo $movieBtnStatus; ?> <i class="fa fa-wheelchair-alt" style="font-size:25px;color:#2a2a57"></i></a>
 		</form>
 
 	</div>
