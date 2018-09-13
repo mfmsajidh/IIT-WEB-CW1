@@ -19,7 +19,7 @@ if (isset($_POST['btn1']))
   */
    $image_loc_name = $folder.$upload_image;
 
-   $query = "INSERT INTO movie values('','$name','$status','$actor','$actress','$image_loc_name',null)";
+   $query = "INSERT INTO movie values('','$name','$status','$actor','$actress','$image_loc_name','Reserve Now',null)";
 
    $result = mysqli_query($conn,$query) or die ("Could not execute query: ".mysqli_error($conn));
 
