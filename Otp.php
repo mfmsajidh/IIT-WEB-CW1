@@ -34,7 +34,7 @@
 						<br>
 						
 						<br>
-						<input class ="textn" type="txt" placeholder="OTP Code" name="txt222">
+						<input class ="textn" type="txt" placeholder="OTP Code" name="txt222" pattern="/^[0-9]*$/">
 						<button class="Sign1n" type ="submit" name="otpsub"> Submit Otp Code </button>
 					    
 					    </form>
