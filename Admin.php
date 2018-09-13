@@ -38,10 +38,14 @@ else {
 
 	<!-- Navigation Bar -->
 	<ul class="navbar">
-		<li class="navbar"><a class="navbar active" href="#"><i class="fa fa-video-camera" style="font-size:16px"></i></a></li>
+		<li class="navbar"><a class="navbar active" href="#"><i class="fa fa-dashboard" style="font-size:16px"></i> Dashboard</a></li>
 		
 		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
 		<li class="navbar_right"><a class="navbar" href="LogoutProcess.php"><i class="fa fa-sign-out"></i> Logout</a></li>
+
+		<form name="S_form" id="S_form" method="post" action="searchprocess.php">
+			<li class="navbar_right"><input type="text" name="search12" placeholder="&#xf002 Search" class="Search" id="Search"></li>
+	    </form>
 	</ul>
 
 	<div class="container new_btn" style="height: 100%;">
@@ -77,58 +81,23 @@ else {
 	<hr width="75%">
 	</div>
 
-	<div class="container new_btn"  style="height: 100%;">
+	<div class="container"  style="height: auto;">
 		<h1>Our Reservations</h1>
-
-		<div class="container">
-			<p>Customer</p>
-			<form class="new_btn">
-
-			<input type="text" id="cid" name="cid" placeholder="Customer ID" disabled style="width:75%;">
-			<input type="text" id="cuser" name="cuser" placeholder="Customer Username" disabled style="width:75%;">
-			<input type="text" id="cname" name="cname" placeholder="Customer Name" disabled style="width:75%;">
-			<input type="text" id="cgender" name="cgender" placeholder="Customer Gender" disabled style="width:75%;">
-			<input type="text" id="cemail" name="cemail" placeholder="Customer Email" disabled style="width:75%;">
-			<input type="text" id="cnumber" name="cnumber" placeholder="Customer Contact" disabled style="width:75%;">
-			<input type="text" id="caddress" name="caddress" placeholder="Customer Address" disabled style="width:75%;">
-			
 			<br>
 			<br>
-			<a href="#"><i class="fa fa-angle-double-left" style="font-size:36px;color:#2a2a57"></i></a> &nbsp &nbsp &nbsp
-			<a href="#"><i class="fa fa-angle-double-right" style="font-size:36px;color:#2a2a57"></i></a>
-
-			<br><br>
-
-			</form>
-		</div>
+			<table style="border-collapse: collapse; width: 100%;">
+			<tr>
+				<th style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;">Movie ID</th>
+				<th style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;">Movie Name</th>
+				<th style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;">Customer ID</th>
+				<th style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;">Customer Name</th>
+			</tr>
+			<?php include("ReceivingMovie.php") ?>
+			</table>
 	</div>
-
-	<div class="container new_btn"  style="height: 75%;">
-		<div class="half-container">
-			<p>Movie #1</p>
-			<form class="new_btn">
-
-			<input type="text" id="mid" name="mid" placeholder="Movie ID" disabled style="width:75%;">
-			<input type="text" id="mname" name="fname" placeholder="Movie Name" disabled style="width:75%;">
-			<input type="text" id="mactor" name="mactor" placeholder="Movie Actor" disabled style="width:75%;">
-			<input type="text" id="mactress" name="mactress" placeholder="Movie Actress" disabled style="width:75%;">
-
-			</form>
-
-		</div>
-
-		<div class="half-container">
-			<p>Movie #2</p>
-			<form class="new_btn">
-
-			<input type="text" id="mid" name="mid" placeholder="Movie ID" disabled style="width:75%;">
-			<input type="text" id="mname" name="fname" placeholder="Movie Name" disabled style="width:75%;">
-			<input type="text" id="mactor" name="mactor" placeholder="Movie Actor" disabled style="width:75%;">
-			<input type="text" id="mactress" name="mactress" placeholder="Movie Actress" disabled style="width:75%;">
-			
-			</form>
-		</div>
-	</div>
+	<br>
+	<br>
+	<br>
 
 	<hr width="90%">
 
