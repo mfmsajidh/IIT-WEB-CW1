@@ -68,10 +68,6 @@ else {
 
   <!-- Division for the Registration Form-->      
   <div class="Content">
-  
-
-  <font size="4"><p align="center"><b>Sign Up</b></p></font>
-  <hr>
   <form name ="form1"  method="post" onsubmit = " return checkforblank() " action="RegisterProcess.php">
     <table border="0">
       <!-- Name and Name Text Box-->
@@ -143,12 +139,12 @@ else {
       
       <!-- CHECK BOX-->
       <tr>
-      	<td><input type="checkbox" name="checkbox" value="check">Accept terms and Policies</td>
+      	<td><input type="checkbox" name="checkbox" value="check">Terms & Conditions</td>
       </tr>
 
       <!-- BUTTONS -->
       <tr>
-      	<td> <input type="Submit"  class="btnsignup"  value="SignUp" onclick="if(!this.form.checkbox.checked){alert('You must agree to the terms first.');return false}"></td>
+      	<td> <input type="Submit"  class="btnsignup"  value="Sign Up" onclick="if(!this.form.checkbox.checked){alert('You must agree to the terms first.');return false}"></td>
       </tr>   
     </table>
   </form>
