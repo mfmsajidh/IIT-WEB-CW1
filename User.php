@@ -52,7 +52,7 @@ else {
 		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
 		<li class="navbar_right"><a class="navbar" href="LogoutProcess.php"><i class="fa fa-sign-out"></i>  Logout</a></li>
 		
-		<form name="S_form" id="S_form" method="post" action="searchprocess.php">
+		<form name="S_form" id="S_form" method="post" action="SearchProcess.php">
 			<li class="navbar_right"><input type="text" name="search12" placeholder="&#xf002 Search" class="Search"></li>
 	    </form>
 	</ul>
