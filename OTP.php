@@ -21,7 +21,21 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body id="bodysignin1">
-
+<ul class="navbar">
+		<li class="navbar"><a class="navbar active" href="Index.php"><i class="fa fa-video-camera" style="font-size:16px"></i> Home</a></li>
+		<li class="navbar dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Movies</a>
+			<div class="dropdown-content">
+				<a href="#Reserve">Reserve Now</a>
+				<a href="#IMG_Gallery">Motion Gallery</a>
+				<a href="#Upcomings">Upcomings</a>
+			</div>
+		</li>
+		<li class="navbar"><a class="navbar" href="Contact Us.php">Contact Us</a></li>
+		<li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
+		<li class="navbar_right"><a class="navbar" href="Login.php"><i class="fa fa-sign-in"></i> Login</a></li>
+		<li class="navbar_right"><a class="navbar" href="Register.php"><i class="fa fa-edit"></i> Register</a></li>
+	</ul>
 
 			<div>
 				<div class="table1n new_btn">
