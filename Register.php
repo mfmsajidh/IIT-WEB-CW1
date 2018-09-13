@@ -121,7 +121,7 @@ else {
     
       <!-- CONTACT NO and CONTACT NO text box-->
       <tr>
-      	<td><label for="Name">Contact No:</label></td>
+      	<td><label for="Name">Contact No (Eg: +94123456789) :</label></td>
       </tr>
 
       <tr>

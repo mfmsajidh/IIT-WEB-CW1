@@ -49,7 +49,7 @@
 						
 						<br>
 						<input class ="textn" type="txt" placeholder="OTP Code" name="txt222">
-						<button class="Sign1n" type ="submit" name="otpsub"> Submit Otp Code </button>
+						<button class="Sign1n" type ="submit" name="otpsub"> Submit OTP </button>
 					    
 					    </form>
 						
