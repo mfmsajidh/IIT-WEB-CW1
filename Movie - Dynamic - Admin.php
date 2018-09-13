@@ -50,7 +50,7 @@ else {
 <body>
 
   <ul class="navbar">
-    <li class="navbar"><a class="navbar active" href="Admin.php"><i class="fa fa-dashboard" style="font-size:16px"></i></a></li>
+    <li class="navbar"><a class="navbar active" href="Admin.php"><i class="fa fa-dashboard" style="font-size:16px"></i> Dashboard</a></li>
     <li class="navbar_logo"><img src="Images/Logo/MovieHut Logo White.png" class="logo" width="40%" height="40%"></li>
 	<li class="navbar_right"><a class="navbar" href="LogoutProcess.php"><i class="fa fa-sign-out"></i> Logout</a></li>
     
