@@ -28,7 +28,7 @@
    }
    else{
           
-    echo'<script tyope="text/javascript"> 
+    echo'<script type="text/javascript"> 
               window.location.replace("login.php");
               alert("Email or Password is Wrong");
           </script>';
