@@ -12,6 +12,9 @@
     
   $row=mysqli_fetch_assoc($result);
 
+  if($row == 1)
+  {
+
     $movieId = $row["movieId"];
 
     if ($_SESSION['Email'] == 'admin@moviehut.com' ) {
@@ -20,6 +23,16 @@
     } 
     else {
     	header("location:Movie - Dynamic.php?id=$movieId");
+  }
 }
+
+else
+  {
+      echo "<script type='text/javascript'>
+                 alert('NO MOVIE FOUND SORRY FOR THE INCONVINENCE');
+                 window.location.replace('User.php');
+               </script>";
+  }
+
 
 ?>

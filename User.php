@@ -39,7 +39,7 @@ else {
 
 	<!-- Navigation Bar -->
 	<ul class="navbar">
-		<li class="navbar"><a class="navbar active" href="User.php"><i class="fa fa-video-camera" style="font-size:16px"></i></a></li>
+<li class="navbar"><a class="navbar active" href="Index.php"><i class="fa fa-video-camera" style="font-size:16px"></i> Home</a></li>
 		<li class="navbar dropdown">
 			<a href="javascript:void(0)" class="dropbtn">Movies</a>
 			<div class="dropdown-content">
@@ -145,117 +145,7 @@ else {
 		Drama | Mystery | Crime | Animation | Adventure | Fantasy</p>
 
 	<!-- Image Gallery -->
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=2">
-		    <img src="Images/Background/Pacific Rim.jpg" alt="Pacific Rim" width="300" height="200">
-		  </a>
-		  <div class="desc"">Pacific Rim Uprising</div>
-		</div>
-
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=3">
-		    <img src="Images/Background/Justice League.jpg" alt="Justice League" width="300" height="200">
-		  </a>
-		  <div class="desc">Justice League</div>
-		</div>
-
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=4">
-		    <img src="Images/Background/Warcraft.jpg" alt="Warcraft" width="300" height="200">
-		  </a>
-		  <div class="desc">Warcraft: The Beginning</div>
-		</div>
-
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=5">
-		    <img src="Images/Background/Dawn of The Planet of The Apes.jpg" alt="Dawn of The Planet of The Apes" width="300" height="200">
-		  </a>
-		  <div class="desc">Dawn of The Planet of The Apes</div>
-		</div>
-
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=6">
-		    <img src="Images/Background/Skyfall 007.jpg" alt="Skyfall 007" width="300" height="200">
-		  </a>
-		  <div class="desc">Skyfall 007</div>
-		</div>
-
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=1">
-		    <img src="Images/Background/Rio 2.jpg" alt="Rio 2" width="300" height="200">
-		  </a>
-		  <div class="desc">Rio 2</div>
-		</div>
-
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=7">
-		    <img src="Images/Background/Assassins Creed.jpg" alt="Assassins Creed" width="300" height="200">
-		  </a>
-		  <div class="desc">Assassin's Creed</div>
-		</div>
-
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=8">
-		    <img src="Images/Background/Hobbit.jpg" alt="Hobbit" width="300" height="200">
-		  </a>
-		  <div class="desc">Hobbit: An Unexpected Journey</div>
-		</div>
-
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=9">
-		    <img src="Images/Background/Foreigner.jpg" alt="Foreigner" width="300" height="200">
-		  </a>
-		  <div class="desc">The Foreigner</div>
-		</div>
-
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=10">
-		    <img src="Images/Background/Happy New Year.jpg" alt="Happy New Year" width="300" height="200">
-		  </a>
-		  <div class="desc">Happy New Year</div>
-		</div>
-
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=11">
-		    <img src="Images/Background/Martian.jpg" alt="The Martian" width="300" height="200">
-		  </a>
-		  <div class="desc">The Martian</div>
-		</div>
-
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=12">
-		    <img src="Images/Background/Alien.jpg" alt="Alien" width="300" height="200">
-		  </a>
-		  <div class="desc">Alien</div>
-		</div>
-
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=13">
-		    <img src="Images/Background/Venom.jpg" alt="Venom" width="300" height="200">
-		  </a>
-		  <div class="desc">Venom</div>
-		</div>
-
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=14">
-		    <img src="Images/Background/Tomb Raider.jpg" alt="Tomb Raider" width="300" height="200">
-		  </a>
-		  <div class="desc">Tomb Raider</div>
-		</div>
-		
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=15">
-		    <img src="Images/Background/Dracula.jpg" alt="Dracula" width="300" height="200">
-		  </a>
-		  <div class="desc">Dracula</div>
-		</div>
-		
-		<div class="gallery">
-		  <a href="Movie - Dynamic.php?id=16">
-		    <img src="Images/Background/MI6.jpg" alt="Mission Impossible Fallout" width="300" height="200">
-		  </a>
-		  <div class="desc">Mission Impossible 6: Fallout</div>
-		</div>
+	<?php include("Movie - Dynamic - Content.php") ?>
 		</div>
 
 	<hr width="96%">
