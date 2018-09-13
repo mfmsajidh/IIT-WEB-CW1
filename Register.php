@@ -58,7 +58,7 @@ else {
 
 <div class="background"> </div>
   <div class="Content1">
-    <p align="center">Reserve Movies from us<br> HD Blu Ray Movies </p>
+    <p align="center">Reserve Movies from us<br> HD Blu Ray Movies</p>
     <hr>
     <h2 align="center">Register to H U T</h2>
     <p align="center">Already Have an Account</p>
@@ -72,7 +72,7 @@ else {
 
   <font size="4"><p align="center"><b>Sign Up</b></p></font>
   <hr>
-  <form name ="form1"  method="post" onsubmit = "return checkforblank()" action="RegisterProcess.php">
+  <form name ="form1"  method="post" onsubmit = " return checkforblank() " action="RegisterProcess.php">
     <table border="0">
       <!-- Name and Name Text Box-->
                         
