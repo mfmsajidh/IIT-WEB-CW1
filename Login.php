@@ -37,7 +37,7 @@ else {
 
   <!-- Navigation Bar -->
   <ul class="navbar">
-<li class="navbar"><a class="navbar active" href="Index.php"><i class="fa fa-video-camera" style="font-size:16px"></i> Home</a></li>
+	<li class="navbar"><a class="navbar active" href="Index.php"><i class="fa fa-video-camera" style="font-size:16px"></i> Home</a></li>
     <li class="navbar dropdown">
       <a href="javascript:void(0)" class="dropbtn">Movies</a>
       <div class="dropdown-content">
