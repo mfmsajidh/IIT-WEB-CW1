@@ -21,6 +21,7 @@ $result = mysqli_query($conn, "UPDATE movie SET status='Borrowed', customerId='$
 
 echo'<script type="text/javascript">window.location.replace("User.php"); alert("You have successfully reserved the Movie");</script>';
 }
+
 //header("location:Movie - Dynamic.php?id=$Movie_ID");
 
 ?>
