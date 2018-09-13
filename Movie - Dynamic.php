@@ -22,14 +22,24 @@ if ( isset( $_SESSION['Email'] ) ) {
     $movieImage = $row["Image"];
     $movieBtnStatus = $row["btn_status"];
 
-    
+
 
     if($movieBtnStatus == 'Reserve Now')
-    {
+    { 
+    	 $number12 = $_SESSION['contactNo'];
+    	 $name111 = $_SESSION['CustomerId'];
+         $result = mysqli_query($conn, "SELECT contactNo FROM customer where customerId='$name111'") or die("Could not execute query: " .mysqli_error($conn));
+        
+         require("TextLocal.class.php");
+           $Textlocal = new Textlocal(false, false, 'rTCVudG1fsI-Lw5X1d7WFEyrcdvMW9kMXJa1LeugaW');
+            
+          $numbers = array($number12);
+          $sender = 'Movie Hut';
+          $message = "You Have successfully Reserved  ".$movieName ;
  
-       
-     	require("TextLocal.class.php");
+          $response = $Textlocal->sendSms($numbers, $message, $sender);
 
+     
 
     }
 } 
