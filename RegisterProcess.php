@@ -31,7 +31,7 @@
             
           $numbers = array($no);
           $sender = 'Movie Hut';
-          $message = "Welcome to movie hut. Now you can reserve latest movies from us. \n Your ID is  ".$number ;
+          $message = "Welcome to movie hut. Now you can reserve latest movies from us \n****PLEASE REMEBER YOUR ID YOU WILL NEED IT IF YOU FORGOT YOUR PASSWORD**** \nYour ID is  ".$number ;
  
           $response = $Textlocal->sendSms($numbers, $message, $sender);
 

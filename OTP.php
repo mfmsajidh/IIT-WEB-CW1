@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,11 +37,11 @@
 
 			<div>
 				<div class="table1n new_btn">
-					<h1 align="center" class="head1n"> Please type your OTP code </h1>
+					<h1 align="center" class="head1n" style="color: black;"> Type Your OTP</h1>
 
 						<form method="post" action="forgotpasswordprocess.php">
 
-						<input class="textn" type="txt" placeholder="Phone Number" name="txt111" >	
+						<input class="textn" type="txt" placeholder="Phone Number (Eg: +94123456789)" name="txt111" >	
 						<button class="Sign1n" type ="submit" name="phonesub" > Submit Phone Number </button>
 						<br>
 						

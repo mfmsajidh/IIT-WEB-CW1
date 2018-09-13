@@ -22,10 +22,10 @@ while ($row=mysqli_fetch_assoc($result)){
 
 	?>
 	<tr onMouseover="this.style.backgroundColor='#f5f5f5'" onMouseOut="this.style.backgroundColor='White'">
-	<td  style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;"><?php echo $mId; ?></td>
-	<td  style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;"><?php echo $mName; ?></td>
-	<td  style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;"><?php echo $cId; ?></td>
-	<td  style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;"><?php echo $cName; ?></td>
+	<td style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;"><?php echo $mId; ?></td>
+	<td style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;"><?php echo $mName; ?></td>
+	<td style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;"><?php echo $cId; ?></td>
+	<td style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;"><?php echo $cName; ?></td>
 	</tr>
 <?php
 };
