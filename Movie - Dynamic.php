@@ -31,7 +31,7 @@ if ( isset( $_SESSION['Email'] ) ) {
          $result = mysqli_query($conn, "SELECT contactNo FROM customer where customerId='$name111'") or die("Could not execute query: " .mysqli_error($conn));
         
          require("TextLocal.class.php");
-           $Textlocal = new Textlocal(false, false, 'rTCVudG1fsI-Lw5X1d7WFEyrcdvMW9kMXJa1LeugaW');
+           $Textlocal = new Textlocal(false, false, 'xWBWoZwoFwg-PRb8RjftiDZbRbn4LvVaEilrDbM3Lc');
             
           $numbers = array($number12);
           $sender = 'Movie Hut';
