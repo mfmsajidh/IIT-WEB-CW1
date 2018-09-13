@@ -12,7 +12,13 @@
     $row=mysqli_fetch_assoc($result);
 
     $movieId = $row["movieId"];
- 	
- 	header("location:Movie - Dynamic.php?id=$movieId");
+
+    if ($_SESSION['Email'] == 'admin@moviehut.com' ) {
+
+    	header("location:Movie - Dynamic - Admin.php?id=$movieId");
+    } 
+    else {
+    	header("location:Movie - Dynamic.php?id=$movieId");
+}
 
 ?>
