@@ -22,9 +22,7 @@
 
     $_SESSION['FullName'] = $row["fullName"];
     $_SESSION['CustomerId'] = $row["customerId"];
-
-
-
+    $_SESSION['contactNo'] = $row["contactNo"];
     
     header('location:User.php');
    }
