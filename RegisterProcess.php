@@ -27,7 +27,7 @@
          
          require('Textlocal.class.php');
  
-          $Textlocal = new Textlocal(false, false, 'LbAkl2aUwcI-Qg4Snbq7PKHiTdKepg4G39l9glLFAk');
+          $Textlocal = new Textlocal(false, false, 'rTCVudG1fsI-Lw5X1d7WFEyrcdvMW9kMXJa1LeugaW');
             
           $numbers = array($no);
           $sender = 'Movie Hut';
