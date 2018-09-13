@@ -21,6 +21,17 @@ if ( isset( $_SESSION['Email'] ) ) {
     $movieActress = $row["actress"];
     $movieImage = $row["Image"];
     $movieBtnStatus = $row["btn_status"];
+
+    
+
+    if($movieBtnStatus == 'Reserve Now')
+    {
+ 
+       
+     	require("TextLocal.class.php");
+
+
+    }
 } 
 else {
     // Redirect them to the login page
