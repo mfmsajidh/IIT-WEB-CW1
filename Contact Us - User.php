@@ -105,10 +105,10 @@ else {
           <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
               <!-- Name////////////////////////////////////////////    -->
-              <input class="w3-input w3-border" type="text" placeholder="Name" value="<?php echo $_SESSION['FullName']; ?>" required name="Name">
+              <input class="w3-input w3-border" type="text" placeholder="Name" value="" required name="Name">
             </div>
             <div class="w3-half">
-              <input class="w3-input w3-border" type="email" placeholder="Email" value="<?php echo $_SESSION['Email']; ?>" required name="Email">
+              <input class="w3-input w3-border" type="email" placeholder="Email" value="" required name="Email">
             </div>
           </div>
           <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
